@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.widgetBox {
+    width: 17vw;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vw auto;
+
+}
+
+.widgetBox .img {
+    width: 100%;
+    height: 13vw;
+    border-radius: 5px 5px 0 0;
+    background-position: 0% 15%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.widgetBox .text {
+    padding: 1vw 0 1.1vw;
+}
+
+.widgetBox .text {
+    text-align: center;
+}
+
+.widgetBox .text .name {
+    color: #19b055;
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+.widgetBox .text .work {
+    color: #87898d;
+    font-size: 0.9vw;
+    font-weight: bold;
+    padding: 0.2vw 0;
+}
+
+.widgetBox .text .stars {
+    width: 100%;
+}
+
+.widgetBox .text .stars span {
+
+    margin: 0.4vw 0 0.6vw 0;
+    height: 0.94vw;
+    width: 100%;
+}
+
+.widgetBox .text .stars .fa {
+    font-size: 1.4vw;
+    margin: 0 0.2vw;
+    border: none;
+    outline: none;
+}
+
+.widgetBox .text .stars .fa {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.widgetBox .text .stars .fa {
+    color: #d5d5d5;
+}
+
+.widgetBox .text .stars .fa.yellow {
+    color: #fda50a;
+}
+
+.widgetBox .text .stars p {
+    font-style: italic;
+    font-size: 0.9vw;
+    color: #87898d;
+    font-family: 'Open Sans';
+}
+
+.widgetBox .text .stars p span {
+
+    color: #171717;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.widgetBox .text .stars h3 {
+
+    font-size: 0.9vw;
+    color: #87898d;
+    font-family: 'Open Sans';
+    padding: 0.3vw 0 0;
+}
+
+.widgetBox .text .stars h3 span {
+
+    color: #19b055;
+    font-style: italic;
+}
+
+.widgetBox .text .info {
+    padding: 1.13vw 1.6vw 0;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.widgetBox .text .info p {
+    font-size: 0.9vw;
+}
+
+.widgetBox .text .info p span {
+    color: #19b055;
+    font-weight: bold;
+}
+
+.widgetBox .text .info ul {
+    color: #b9b9b9;
+    font-size: 0.8vw;
+    text-align: left;
+    width: 100%;
+    padding: 0.4vw 1vw;
+    line-height: 1.5;
+
+}
+
+.widgetBox .text .info ul span {
+    color: #555555;
+}
+
+.widgetBox .text .moreBtn {
+    width: 11vw;
+    height: 2.2vw;
+    border: 1px solid #48c078;
+    border-radius: 50px;
+    background-color: white;
+    outline: none;
+    font-size: 0.82vw;
+    color: #19b055;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0.5vw;
+    cursor: pointer;
+}
+
+.widgetBox a .logo {
+    background-color: #19b055;
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.widgetBox .text .info .numbList {
+    list-style-type: decimal;
+    color: black;
+    padding: 0.4vw 0.8vw;
+}
+
+.widgetBox a .logo img {
+    width: 10vw;
+}
+
+.widgetBox a.logoContainer {
+    width: 100%;
+}
+
+@media all and (max-width:1024px) {
+    .widgetBox {
+        width: 28vw;
+        margin: 4vw auto;
+    }
+
+    .widgetBox .text .name {
+        font-size: 2.25vw;
+    }
+
+    .widgetBox .text .work {
+        font-size: 1.5vw;
+    }
+
+    .widgetBox .text .stars p {
+        font-size: 1.2vw;
+    }
+
+    .widgetBox .text .stars span {
+        height: 2.94vw;
+    }
+
+    .widgetBox .text .stars .fa {
+        font-size: 2.2vw;
+        margin: 0 0.3vw;
+    }
+
+    .widgetBox .text .info p {
+        font-size: 1.5vw;
+    }
+
+    .widgetBox .text .info {
+        padding: 1.13vw 0 0 3vw;
+        width: 28vw;
+    }
+
+    .widgetBox .text .info ul {
+        font-size: 1.3vw;
+        padding: 1.4vw 0 1.4vw 1.8vw;
+    }
+
+    .widgetBox .text .info .numbList {
+
+        padding: 1.4vw 0 1.4vw 1.4vw;
+    }
+
+    .widgetBox .text {
+        padding: 2vw 0 2.1vw;
+    }
+
+    .widgetBox .text .moreBtn {
+        width: 19vw;
+        height: 4.2vw;
+        font-size: 1.4vw;
+    }
+
+    .widgetBox a .logo {
+        height: 6vw;
+    }
+
+    .widgetBox a .logo img {
+        width: 16vw;
+    }
+
+    .widgetBox .img {
+        height: 22vw;
+    }
+
+    .numbList {}
+}
+
+@media all and (max-width:425px) {
+    .widgetBox {
+        width: 65vw;
+        margin: 5vw auto;
+    }
+
+    .container {
+        justify-content: center;
+        
+    }
+
+    .widgetBox .img {
+        height: 51vw;
+    }
+
+    .widgetBox .text .name {
+        font-size: 4.8vw;
+    }
+
+    .widgetBox .text .work {
+        font-size: 3.3vw;
+    }
+
+    .widgetBox .text .stars span {
+        height: 6vw;
+    }
+
+    .widgetBox .text .stars .fa {
+        font-size: 5.3vw;
+        margin: 0 0.1vw;
+    }
+
+    .widgetBox .text .stars span {
+        margin: 2vw 0 0.6vw 0;
+    }
+
+    .widgetBox .text .stars p {
+        font-size: 3.3vw;
+    }
+
+    .widgetBox .text .info {
+        padding: 2.13vw 0 0 3vw;
+        width: 100%;
+    }
+
+    .widgetBox .text .info p {
+        font-size: 3.3vw;
+    }
+
+    .widgetBox .text .info ul {
+        font-size: 3.1vw;
+        padding: 2.4vw 0 2.4vw 4vw;
+    }
+
+    .widgetBox .text .moreBtn {
+        width: 45vw;
+        height: 7.6vw;
+        font-size: 3.1vw;
+    }
+
+    .widgetBox a .logo {
+        height: 10vw;
+    }
+
+    .widgetBox a .logo img {
+        width: 35vw;
+    }
+
+    .widgetBox .text {
+        padding: 2.5vw 0 4.1vw;
+    }
+
+    .widgetBox .text .info .numbList {
+        padding: 2vw 0 2vw 2.9vw;
+    }
+}

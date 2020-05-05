@@ -1,0 +1,669 @@
+#simplemodal-appointment-container {
+    margin: 0 auto;
+    z-index: 1002;
+    height: 745px;
+    width: 700px;
+}
+
+.modal .modal-header {
+    background: #00af54;
+
+    border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modal-header p {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 auto 0 231px;
+}
+
+.modalCloseImg {
+    display: block;
+    width: 62px;
+    height: 62px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 6px 0 0;
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    background: #009045 url(ic-close.png) 50% 50% no-repeat;
+}
+
+.modal .modal-content {
+    background: #fff;
+    padding: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.book .left {
+    width: 265px;
+    float: left;
+}
+
+.modal .label {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+label.label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=phone],
+input[type=number],
+input[type=password],
+input[type=date] {
+    display: inline-block;
+    font-family: open sans, sans-serif;
+    font-size: 14px;
+    color: #272b29;
+    padding: 13px 20px;
+    line-height: 20px;
+    height: 46px;
+    background: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    vertical-align: middle;
+}
+
+button.ui-datepicker-trigger {
+    background: 0 0;
+    color: #333;
+    padding: 15px 0;
+    position: absolute;
+    right: 26px;
+}
+
+.modal input,
+.modal textarea {
+    width: 100%;
+    background: #eff2f7;
+    margin-bottom: 12px;
+}
+
+.ui-datepicker-trigger {
+    border: none;
+    background: 0 0;
+    float: right;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-calendar:before {
+    content: "\f073";
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 116px;
+    font-family: open sans, sans-serif;
+    font-size: 14px;
+    color: #272b29;
+    padding: 13px 20px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    resize: vertical;
+}
+
+.modal .time-picker {
+    float: right;
+    width: 365px;
+    padding: 17px 17px 17px 14px;
+    border: solid 2px #eff2f7;
+    overflow: hidden;
+}
+
+.modal .time-picker header {
+    text-align: center;
+    padding: 10px 50px 0;
+    margin-bottom: 31px;
+    line-height: 19px;
+    background-color: #fff;
+}
+
+.modal .time-picker header strong {
+    display: block;
+    font-weight: 700;
+}
+
+.modal .time-picker header span {
+    display: block;
+}
+
+.modal .time-picker label {
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin: 0 0 3px 3px;
+}
+
+.modal .time-picker label input {
+    display: none;
+}
+
+.modal .time-picker label span {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 79px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border: solid 2px #eff2f7;
+    background: #eff2f7;
+    color: #666;
+    font-size: 16px;
+}
+
+.modal .time-picker label input:checked + span {
+    border-color: #00af54;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+
+.rc-anchor-light.rc-anchor-normal {
+    border: 1px solid #d3d3d3;
+}
+
+.rc-anchor-light {
+    background: #f9f9f9;
+    color: #000;
+}
+
+.rc-anchor-normal {
+    height: 74px;
+    width: 300px;
+}
+
+.rc-anchor {
+    border-radius: 3px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.08);
+}
+
+.rc-anchor-aria-status {
+    display: none;
+}
+
+.rc-anchor-error-msg-container {
+    color: #ff0000;
+    font-family: Roboto, helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    line-height: 14px;
+    margin: 2px;
+    position: absolute;
+    top: 0;
+}
+
+.rc-anchor-normal .rc-anchor-content {
+    height: 74px;
+    width: 206px;
+}
+
+.rc-anchor-content {
+    display: inline-block;
+}
+
+.rc-inline-block {
+    display: inline-block;
+    height: 100%;
+}
+
+.rc-anchor-center-container {
+    display: table;
+    height: 100%;
+}
+
+.rc-anchor-center-item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rc-anchor-checkbox {
+    margin: 0 12px 2px 12px;
+}
+
+.recaptcha-checkbox {
+    border: none;
+    font-size: 1px;
+    height: 28px;
+    margin: 4px;
+    width: 28px;
+    overflow: visible;
+    outline: 0;
+    vertical-align: text-bottom;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+span[Attributes Style] {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+.rc-anchor-light {
+    background: #f9f9f9;
+    color: #000;
+}
+
+.recaptcha-checkbox-border {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    font-size: 1px;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+    z-index: 1;
+}
+
+.recaptcha-checkbox-borderAnimation {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAANICAYAAABZl8i8AAAABmJLR…caGahTBej/IqDS5GVQOowHJTExMTExMTExMTExMTGx4Pb/Ab7rit24eUF+AAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    border: none;
+    height: 28px;
+    outline: 0;
+    position: absolute;
+    width: 28px;
+}
+
+.recaptcha-checkbox-spinner {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAscCAYAAAALLkmiAAAABmJLR…OqmOwj9LFhB/6A26e0msmsRAxskuaQZKyUU1yatK+i/X9jsJ4YiehNDAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    border: none;
+    height: 36px;
+    left: -4px;
+    outline: 0;
+    position: absolute;
+    top: -4px;
+    width: 36px;
+}
+
+.recaptcha-checkbox-spinnerAnimation {
+    background-repeat: no-repeat;
+    border: none;
+    height: 38px;
+    left: -5px;
+    outline: 0;
+    position: absolute;
+    top: -5px;
+    visibility: hidden;
+    width: 38px;
+}
+
+.recaptcha-checkbox-checkmark {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAATsCAYAAADsAfBvAAAABmJLR…c8fQAAAIA4Ve/BleITOu7J3HehqXqHPH0AAAAAAAAAALr5H72AWmG4R73sAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    border: none;
+    height: 30px;
+    left: -5px;
+    outline: 0;
+    position: absolute;
+    width: 38px;
+}
+
+.rc-anchor-center-container {
+    display: table;
+    height: 100%;
+}
+
+.rc-anchor-normal .rc-anchor-checkbox-label {
+    width: 152px;
+}
+
+.rc-anchor-checkbox-label {
+    font-family: Roboto, helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.rc-anchor-center-item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rc-anchor-normal-footer {
+    display: inline-block;
+    height: 74px;
+    vertical-align: top;
+    width: 70px;
+}
+
+.rc-anchor-logo-portrait {
+    margin: 10px 0 0 26px;
+    width: 58px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.rc-anchor-logo-img-portrait {
+    background-size: 32px;
+    height: 32px;
+    margin: 0 13px 0 13px;
+    width: 32px;
+}
+
+.rc-anchor-light .rc-anchor-logo-text {
+    color: #555;
+}
+
+.rc-anchor-logo-text {
+    cursor: default;
+    font-family: Roboto, helvetica, arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.rc-anchor-normal .rc-anchor-pt {
+    margin: 2px 13px 0 0;
+    padding-right: 2px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 276px;
+}
+
+.rc-anchor-normal .rc-anchor-pt,
+.rc-anchor-invisible .rc-anchor-pt,
+.rc-anchor-compact .rc-anchor-pt {
+    font-family: Roboto, helvetica, arial, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.rc-anchor-pt {
+    background-image: url(data:image/png;base64,iVBORw0KGgBpLSYkOkU9XLAVOfqFLrz4wBw0YFXJXInXNlFFeX2uk…m9BIZwF9hmkBTbzkQDxNq6boZN9aB6iq2OUwXudlG14gogmmzggBvUiYCbX2MWC1OXuqN3A2zg);
+}
+
+.rc-anchor-light .rc-anchor-pt a:link,
+.rc-anchor-light .rc-anchor-pt a:visited {
+    color: #555;
+}
+
+.rc-anchor-pt a {
+    text-decoration: none;
+}
+
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.modal .modal-footer {
+    background: #fff;
+    border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    padding: 0 20px 29px;
+}
+
+.center {
+    text-align: center;
+}
+
+.modal .modal-footer .btn {
+    min-width: 220px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.btn.btn-round {
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.btn {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 30px;
+    line-height: 20px;
+    font-size: 16px;
+    height: 46px;
+    background: #00af54;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    vertical-align: middle;
+}
+
+#appointment-submit-button p {
+    color: white;
+}
+
+
+a {
+    color: #00af54;
+    text-decoration: none;
+}
+
+.recaptcha-checkbox-checked .recaptcha-checkbox-checkmark {
+    background-position: 0 -600px;
+}
+
+.recaptcha-checkbox-checkmark {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAATsCAYAAADsAfBvAAAABmJLR…c8fQAAAIA4Ve/BleITOu7J3HehqXqHPH0AAAAAAAAAALr5H72AWmG4R73sAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    border: none;
+    height: 30px;
+    left: -5px;
+    outline: 0;
+    position: absolute;
+    width: 38px;
+}
+
+#appointment-form-send-to-other-firm p {
+    font-size: 16px!important;
+    color: #fff;
+}
+
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+    float: left;
+}
+
+@media all and (max-width:425px) {
+    .book .left {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=phone],
+    input[type=number],
+    input[type=password],
+    input[type=date] {
+
+        font-size: 14px;
+        line-height: 16px;
+        height: 38px;
+    }
+
+    .modal .modal-header p {
+        font-size: 13px;
+        line-height: 17px;
+        margin: 0 11vw 0 0;
+    }
+
+    .modalCloseImg {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .modal .time-picker label span {
+        width: 63px;
+        height: 37px;
+        line-height: 33px;
+        font-size: 13px;
+
+    }
+
+    .modal .time-picker header {
+        padding: 0px 50px 0;
+        margin-bottom: 27px;
+        line-height: 19px;
+    }
+
+    .modal .time-picker {
+        width: 300px;
+        margin: 20px 0;
+    }
+
+    #simplemodal-appointment-container {
+
+        width: 340px;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .modal .modal-footer .btn {
+        margin: 20px 5px 0!important;
+    }
+
+    .modal .modal-footer {
+        padding: 0 20px 0px;
+    }
+
+    #appointment-submit-button p {
+        top: 50%;
+        transform: translate(0, 50%);
+    }
+
+    .modal textarea {
+        height: 23vw!important;
+    }
+}
+
+@media all and (max-width:320px) {
+
+    #simplemodal-appointment-container {
+        width: 290px;
+    }
+
+    .modal .modal-header p {
+        margin: 0 auto 0 42px;
+    }
+
+    .modalCloseImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .modal .time-picker {
+        width: 250px;
+    }
+
+    .modal .time-picker label span {
+        width: 68px;
+        height: 39px;
+        line-height: 36px;
+        font-size: 13px;
+    }
+
+    iframe,
+    #recaptchaAppointment {
+        width: 227px;
+        border-right: 1px solid #d3d3d3;
+        border-radius: 3px;
+        height: 76px;
+    }
+
+    .modal .modal-footer {
+        padding: 0 0px 0px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+}

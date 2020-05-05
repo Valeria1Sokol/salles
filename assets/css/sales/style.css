@@ -1,0 +1,2509 @@
+/* ------------------------------------------------------------------------ Globals ------------------------------------------------------------------------ */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 625px;
+}
+
+#section-one {
+    height: calc(100% - 77px);
+    margin: 0;
+    padding: 0;
+    min-height: 859px;
+}
+
+#section-one .row {
+    height: 100%;
+    padding: 0;
+    margin: 0
+}
+
+section {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    color: #181818;
+}
+
+.container {
+    width: 1430px;
+    position: relative;
+}
+
+.browser-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.browser-section {
+    padding: 71px 0 0 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.browser-section .browser {
+    position: relative;
+    bottom: 0;
+}
+
+.browser-section .browser.left {
+    float: left;
+}
+
+.browser-section .browser.right {
+    float: right;
+}
+
+.text-block {
+    position: relative;
+    max-width: 500px;
+    padding-top: 100px;
+}
+
+.text-block h3 {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    color: #00af54;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text-block p {
+    margin: 0;
+    font-weight: 500;
+    line-height: initial;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+}
+
+.text-block p + p {
+    margin-top: 20px;
+}
+
+.text-block.left {
+    float: left;
+    text-align: left;
+}
+
+.text-block.right {
+    float: right;
+    text-align: right;
+}
+
+.five-stars {
+    position: relative;
+    display: inline-block;
+    width: 124px;
+    height: 19px;
+    bottom: -7px;
+    background: url('../../img/sales/stars.png') no-repeat center center;
+    background-size: cover;
+}
+
+.section-divider {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    cursor: pointer !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, ul, li {
+    cursor: default;
+}
+
+section.st {
+    padding: 70px 0;
+}
+
+section.st h1 {
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #00af54;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.btn-md .ic {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ic-download {
+    background-image: url('../../img/sales/ic-download.svg');
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.btn-sm {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 17px;
+    padding: 6px 23px !important;
+}
+
+.btn-sm.white {
+    background-color: #fff !important;
+    color: #00af54 !important;
+}
+
+.link-sm {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 0 !important;
+}
+
+.link-sm.white {
+    color: #fff !important;
+}
+
+.link-sm.white:hover {
+    color: #fff !important;
+}
+
+.btn-md {
+    color: #fff;
+    background-color: #00af54;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 12px 34px;
+    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+}
+
+.btn-md:hover {
+    background-color: #009447;
+}
+
+.white-btn {
+    background-color: #fff;
+    color: #00af54;
+}
+
+.white-btn:hover {
+    background-color: #eee;
+}
+
+.join-now > a:first-child {
+    float: left;
+    width: 100%;
+    z-index: 99;
+    position: relative;
+}
+
+.logo-rs {
+    cursor: pointer;
+    display: block;
+    background: url('../../img/sales/logo-reviewsolicitors.svg') no-repeat center center;
+    background-size: cover;
+}
+
+.logo-rs.white {
+    background-image: url('../../img/sales/logo-reviewsolicitors-white.svg');
+}
+
+.logo-rs.lg {
+    width: 367px;
+    height: 67px;
+}
+
+.logo-rs.sm {
+    width: 251px;
+    height: 41px;
+}
+
+/* ========== Form Style ========== */
+.control-form {
+    width: 100%;
+    font-size: 16px;
+    color: #757575;
+    font-weight: 500;
+    background-color: #f1f2f2;
+    border: none;
+    outline: none;
+    padding: 14px 40px 14px 85px;
+    border-radius: 25px;
+}
+
+.input-group, .input-group .btn-md {
+    width: 100%;
+}
+
+.input-group + .input-group {
+    margin-top: 25px;
+}
+
+.input-group .ic {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    display: block;
+    left: 33px;
+    top: calc(50% - 12px);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.input-group .ic:before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: -15px;
+    border-right: 1px solid rgba(162, 162, 162, 0.4);
+}
+
+.ic.ic-building {
+    background-image: url("../../img/sales/icons/ic-building.svg");
+    background-size: 21px;
+}
+
+.ic.ic-email {
+    background-image: url("../../img/sales/icons/ic-email.svg");
+    background-size: 22px;
+}
+
+.ic.ic-phone {
+    background-image: url("../../img/sales/icons/ic-phone.svg");
+    background-size: 20px;
+}
+
+.ic.ic-user {
+    background-image: url("../../img/sales/icons/ic-user.svg");
+    background-size: 18px;
+}
+
+.control-form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #acacac;
+    opacity: 1; /* Firefox */
+}
+
+.control-form:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #acacac;
+}
+
+.control-form::-ms-input-placeholder { /* Microsoft Edge */
+    color: #acacac;
+}
+/* ========== End Of Form Style ========== */
+/* ------------------------------------------------------------------------ End Of Globals ------------------------------------------------------------------------ */
+
+/* ====================================================== Navigation Bar ============================================================ */
+.top-bar {
+    min-width: 640px;
+    z-index: 9;
+    border: none;
+    display: block !important;
+    background-color: #00af54;
+    box-shadow: 0 7px 50px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.top-bar .logo-rs {
+    position: absolute;
+    left: calc(50% - 130px);
+    top: 14px;
+}
+
+.top-bar .badge-phone-number {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.top-bar .badge {
+    padding: 0;
+}
+
+.top-bar .navbar-nav li + li {
+    margin-left: 25px;
+}
+
+.top-bar.show {
+    opacity: 1;
+    z-index: 11;
+}
+/* ====================================================== End Of Navigation Bar ============================================================ */
+
+/* ====================================================== Advantages Section ============================================================ */
+.advantages-section {
+    background-color: #fff;
+}
+
+.advantage {
+    text-align: center;
+    position: relative;
+}
+
+.advantage:before {
+    content: '';
+    width: 3px;
+    top: calc(50% - 85px);
+    right: -17px;
+    height: 216px;
+    position: absolute;
+    border-right: 3px dotted #f1f2f2;
+}
+
+.col-md-4:last-child .advantage:before {
+    display: none;
+}
+
+.advantage .text-wrapper {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.advantage h2 {
+    color: #00af54;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 38px 0 20px 0;
+}
+
+.advantage p {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin: 0;
+    line-height: 22px;
+}
+
+.advantage .ic {
+    width: 137px;
+    height: 135px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.advantage .ic.ic-verified-reviews {
+    background-size: 121px;
+}
+
+.advantage .ic.ic-reputation {
+    background-size: 133px;
+}
+
+.advantage .ic.ic-new-client {
+    background-size: 139px;
+    background-position-y: 12px;
+}
+
+.ic.ic-verified-reviews {
+    background-image: url("../../img/sales/ic-verified-reviews.svg");
+}
+
+.ic.ic-reputation {
+    background-image: url("../../img/sales/ic-reputation.svg");
+}
+
+.ic.ic-new-client {
+    background-image: url("../../img/sales/ic-new-client.svg");
+}
+/* ====================================================== End Of Advantages Section ============================================================ */
+
+/* ====================================================== Benefits Section ============================================================ */
+.benefits-section {
+    padding: 0 !important;
+    position: relative;
+}
+
+.benefits-section {
+    height: 1000%;
+    max-height: 1069px;
+}
+
+.benefits-section .ic {
+    margin-right: 15px;
+}
+
+.benefits-section h1, .benefits-section h5 {
+    color: #fff !important;
+}
+
+.benefits-section h5 {
+    font-weight: 500 !important;
+}
+
+.benefits-section .benefit + .benefit {
+    margin-top: 30px !important;
+}
+
+.benefits-section .benefits-block {
+    width: 500px;
+    padding: 70px 0;
+    background-color: transparent;
+}
+
+.benefits-section .btn-md {
+    margin-top: 72px !important;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.benefits-section .bg-rs {
+    background: url("../../img/sales/bg-benefits-section.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.benefits-section .devices {
+    background-color: #f2fbf6;
+    height: 100%;
+}
+
+.benefits-section .benefit .check {
+    background-color: #fff;
+}
+
+.devices img {
+    position: absolute;
+}
+
+.mobile-customer-reviews {
+    left: calc(50% - 435px);
+    bottom: 0;
+    z-index: 1;
+    top: 100px;
+}
+
+.mobile-rating {
+    top: 70px;
+    left: calc(50% - 70px);
+}
+/* ====================================================== End Of Benefits Section ============================================================ */
+
+/* ====================================================== Google Rating Section ============================================================= */
+.google-rating-section .text-block {
+    width: 470px;
+    padding: 160px 0 0 0;
+}
+
+.google-rating-section .browser.left {
+    left: -9px;
+}
+/* ====================================================== End Of Google Rating Section ============================================================ */
+
+/* ====================================================== Google And Facebook Section ============================================================ */
+.google-facebook-section {
+    padding: 118px 0;
+    background-color: #fff;
+}
+
+.google-facebook-section .text-block {
+    width: 480px;
+    padding: 30px 0 0 0;
+}
+
+.google-facebook-section .section-divider {
+    bottom: -118px;
+    width: calc(100% - 30px);
+}
+/* ====================================================== End Of Google And Facebook Section ============================================================ */
+
+/* ====================================================== Tailored Review Section ============================================================ */
+.tailored-review-section {
+    padding: 75px 0;
+    background-color: #fff;
+}
+
+.tailored-review-section .text-block {
+    width: 485px;
+    padding: 80px 0 0 0;
+}
+/* ====================================================== End Of Tailored Review Section ============================================================ */
+
+/* ====================================================== Client Feedback Section ============================================================ */
+.client-feedback-section .browser.right {
+    right: -30px;
+}
+
+.client-feedback-section .text-block p {
+    width: 450px;
+}
+
+.client-feedback-section .text-block {
+    width: 485px;
+    padding: 240px 0 0 0;
+}
+/* ====================================================== End Of Client Feedback Section ============================================================ */
+
+/* ====================================================== Individual Profiles Section ============================================================ */
+.individual-profiles-section .text-block {
+    width: 460px;
+    padding: 120px 0 0 0;
+}
+
+.individual-profiles-section .browser.left {
+    left: -51px;
+}
+/* ====================================================== End Of Individual Profiles Section ============================================================ */
+
+/* ====================================================== Ranking Pages Section ============================================================ */
+.ranking-pages-section .browser.right {
+    right: -51px;
+}
+
+.ranking-pages-section .text-block {
+    width: 455px;
+    padding: 240px 0 0 0;
+}
+/* ====================================================== End Of Ranking Pages Section ============================================================ */
+
+/* ====================================================== Professional Profile Section ============================================================ */
+.professional-profile-section .text-block {
+    width: 470px;
+    padding: 240px 0 0 0;
+}
+
+.professional-profile-section.browser-section {
+    padding: 40px 0 0 0 !important;
+}
+
+.professional-profile-section .browser.left {
+    left: -51px;
+}
+/* ====================================================== End Of Professional Profile Section ============================================================ */
+
+/* ====================================================== Access To Widgets Section ============================================================ */
+.access-widgets-section .browser.right {
+    right: -51px;
+}
+
+.access-widgets-section .text-block {
+    width: 470px;
+    padding: 240px 0 0 0;
+}
+/* ====================================================== End Of Access To Widgets Section ============================================================ */
+
+/* ====================================================== End Of Our Clients Section ============================================================ */
+.our-clients-section {
+    background-color: #fff;
+    padding: 90px 0 !important;
+}
+
+.our-clients-section .widgets + .widgets {
+    padding: 25px 0 0 0;
+}
+
+.our-clients-section .widgets {
+    text-align: center;
+}
+
+.our-clients-section .client-logo + .client-logo{
+    margin-left: 60px;
+}
+
+.our-clients-section .section-divider {
+    bottom: -68px;
+}
+/* ====================================================== End Of Our Clients Section ============================================================ */
+
+/* ====================================================== Collect Reviews Section ============================================================ */
+.collect-reviews-section .text-block {
+    width: 470px;
+    padding: 240px 0 0 0;
+}
+
+.collect-reviews-section .browser.right {
+    right: 150px;
+}
+/* ====================================================== End Of Collect Reviews Section ============================================================ */
+
+/* ====================================================== Statistic Section ============================================================ */
+.statistic-section .text-block {
+    width: 470px;
+    padding: 240px 0 0 0;
+}
+
+.statistic-section .browser.left {
+    left: -51px;
+}
+/* ====================================================== End Of Statistic Section ============================================================ */
+
+/* ====================================================== Customer Comments Section ============================================================ */
+.customer-comments-section {
+    background-color: #f7fcfa;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .slick-arrow {
+    width: 125px;
+    height: 73px;
+    position: absolute;
+    opacity: 0.3;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    top: 25%;
+    outline: none;
+    z-index: 9;
+    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+}
+
+.slider .slick-arrow:hover {
+    opacity: 0.5;
+}
+
+.slick-arrow.next {
+    right: 0;
+}
+
+.firms.slider .slick-list {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    position: relative;
+    outline: none !important;
+}
+
+.firms.slider h5, .firms.slider h4 {
+    color: #181818;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.firms.slider h4 {
+    font-weight: 800;
+    margin: 0 0 7px 0;
+}
+
+.firms.slider h5 {
+    font-weight: 700;
+    margin: 0 0 11px 0;
+}
+
+.firms.slider h5 span {
+    font-weight: 500;
+}
+
+.firms.slider p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.8;
+    color: #00af54;
+    margin: 0;
+}
+
+.firms.slider .ic-quote {
+    width: 26px;
+    opacity: 0.25;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+}
+
+.firms.slider .logo-wrapper {
+    height: 80px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.firms.slider .logo-wrapper img {
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.firms.slider .slick-slide {
+    position: relative;
+    margin: 0 55px;
+}
+/* ====================================================== End Of Customer Comments Section ============================================================ */
+
+/* ====================================================== Leader Package Section ============================================================ */
+.package-leader-section {
+    background: #108d4d url("../../img/sales/bg-package-leader-section.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.package-leader-section h1 {
+    color: #fff !important;
+}
+
+.benefits-block {
+    width: 682px;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 66px;
+    background-color: #fff;
+}
+
+.benefit h5 {
+    color: #181818;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    width: calc(100% - 80px);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.benefit + .benefit {
+    margin-top: 20px;
+}
+
+.benefit .check {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 32px 0 0;
+    background-color: #00af54;
+    border-radius: 50%;
+}
+
+.check .ic-check.green {
+    background-image: url("../../img/sales/ic-check-green.svg");
+}
+
+.check .ic-check {
+    width: 23px;
+    height: 17px;
+    display: block;
+    margin: 13px auto;
+    background: url("../../img/sales/ic-check-white.svg") no-repeat center center;
+    background-size: cover;
+}
+
+.benefits-block .btn-md {
+    margin-top: 30px;
+}
+/* ====================================================== End Of Leader Package Section ============================================================ */
+
+/* ====================================================== Request Demonstration Section ============================================================ */
+.request-demonstration-section .start-form {
+    width: 895px;
+}
+
+.request-demonstration-section {
+    background-color: #fff;
+}
+/* ====================================================== End Of Request Demonstration Section ============================================================ */
+
+/* ====================================================== Footer ============================================================ */
+.footer {
+    float: left;
+    width: 100%;
+    background-color: #f3f3f3;
+    color: #979797;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 17px 0;
+    line-height: 17px;
+}
+
+.footer .content {
+    width: 500px;
+    text-align: center;
+}
+/* ====================================================== End Of Footer ============================================================ */
+
+/* ***************** jquery auto-complete menu ************************************ */
+.ui-autocomplete {
+    z-index: 1000;
+    max-height: 500px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /*   position: absolute; <-- I copied this from a bootstrap example on "how to definitvely style autocomplete" but it doesn't work in chrome */
+    /* top: 100%; */
+    /*   left: 0; */
+    /*   z-index: 1000; */
+    /*   float: left; */
+    /*   display: none; */
+    /*   min-width: 160px; */
+    /*   _width: 160px; */
+    padding: 4px 0;
+    margin: 1px 0 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+
+.ui-menu-item {
+    display: block;
+    padding: 6px;
+    padding-left: 1em;
+    clear: both;
+    font-weight: normal;
+    font-size: 14px;
+    color: #444;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.ui-state-hover, .ui-state-focus, .ui-state-active, .ui-menu-item:hover {
+    background-color: #00af54;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background-image: none;
+}
+
+/* each auto complete needs one of these to control the width */
+#town-menu-container {
+    position: absolute;
+    width: 283px;
+}
+
+#firm-menu-container1,#firm-menu-container2 {
+    position: absolute;
+    width: 370px;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+/* ------------------------------------------------------------------------ Responsive ------------------------------------------------------------------------ */
+@media only screen and (max-width: 1770px) {
+    /* ========== Google Rating Section ========== */
+    .google-rating-section .text-block {
+        width: 370px;
+    }
+    /* ========== End Of Google Rating Section ========== */
+
+    /* ========== Google And Facebook Section ========== */
+    .google-facebook-section .text-block {
+        width: 395px;
+    }
+    /* ========== End Of Google And Facebook Section ========== */
+
+    /* ========== Tailored Review Section ========== */
+    .tailored-review-section .text-block {
+        width: 400px;
+        padding: 50px 0 0 0;
+    }
+    /* ========== End Of Tailored Review Section ========== */
+
+    /* ========== Client Feedback Section ========== */
+    .client-feedback-section .text-block p {
+        width: auto;
+    }
+
+    .client-feedback-section .text-block {
+        width: 322px;
+    }
+    /* ========== End Of Client Feedback Section ========== */
+
+    /* ========== Individual Profiles Section ========== */
+    .individual-profiles-section .text-block {
+        width: 305px;
+    }
+    /* ========== End Of Individual Profiles Section ========== */
+
+    /* ========== Ranking Pages Section ========== */
+    .ranking-pages-section .text-block {
+        width: 305px;
+    }
+    /* ========== End Of Ranking Pages Section ========== */
+
+    /* ========== Professional Profile Section ========== */
+    .professional-profile-section .text-block {
+        width: 290px;
+    }
+    /* ========== End Of Professional Profile Section ========== */
+
+    /* ========== Access To Widgets Section ========== */
+    .access-widgets-section .text-block {
+        width: 276px;
+    }
+    /* ========== End Of Access To Widgets Section ========== */
+
+    /* ========== Statistic Section ========== */
+    .statistic-section .text-block {
+        width: 300px;
+    }
+    /* ========== End Of Statistic Section ========== */
+
+    /* ========== Benefits Section ========== */
+    .mobile-customer-reviews, .mobile-rating {
+        width: 470px;
+    }
+
+    .mobile-customer-reviews {
+        left: calc(50% - 385px);
+    }
+
+    .mobile-rating {
+        left: calc(50% - 62px);
+    }
+    /* ========== End Of Benefits Section ========== */
+}
+
+@media only screen and (max-width: 1580px) {
+    /* ========== Intro Section ========== */
+    .intro-section .join-now {
+        width: 578px;
+    }
+    /* ========== End Of Intro Section ========== */
+}
+
+@media only screen and (max-width: 1555px) {
+    /* -------------------- Globals -------------------- */
+    .container {
+        width: 1160px;
+    }
+    /* -------------------- End Of Globals -------------------- */
+
+    /* ========== Intro Section ========== */
+    .intro-section .text-wrapper {
+        width: 100%;
+    }
+
+    #case p {
+        width: 440px;
+    }
+    /* ========== End Of Intro Section ========== */
+
+    /* ========== Advantages Section ========== */
+    .advantage .text-wrapper {
+        width: auto;
+        padding: 0 28px;
+    }
+
+    .advantage:before {
+        height: 256px;
+        top: calc(50% - 115px);
+    }
+    /* ========== End Of Advantages Section ========== */
+
+    /* ========== Benefits Section ========== */
+    .mobile-customer-reviews, .mobile-rating {
+        width: 430px;
+    }
+
+    .mobile-customer-reviews {
+        left: calc(50% - 352px);
+    }
+
+    .mobile-customer-reviews {
+        bottom: 30px;
+    }
+
+    .mobile-rating {
+        top: 85px;
+    }
+    /* ========== End Of Benefits Section ========== */
+
+    /* ========== Google Rating Section ========== */
+    .google-rating-section .browser img {
+        width: 860px;
+    }
+
+    .google-rating-section .text-block {
+        width: 324px;
+        padding: 100px 0 0 0;
+    }
+    /* ========== End Of Google Rating Section ========== */
+
+    /* ========== Google And Facebook Section ========== */
+    .google-facebook-section img.scheme {
+        width: 550px;
+        top: 20px;
+        position: relative;
+    }
+
+    .google-facebook-section .text-block {
+        width: 315px;
+        padding: 0;
+    }
+    /* ========== End Of Google And Facebook Section ========== */
+
+    /* ========== Tailored Review Section ========== */
+    .tailored-review-section img.scheme {
+        width: 490px;
+    }
+
+    .tailored-review-section .text-block {
+        width: 290px;
+        padding: 0;
+    }
+    /* ========== End Of Tailored Review Section ========== */
+
+    /* ========== Client Feedback Section ========== */
+    .client-feedback-section .browser img {
+        width: 860px;
+    }
+
+    .client-feedback-section .text-block {
+        width: 252px;
+        padding: 120px 0 0 0;
+    }
+    /* ========== End Of Client Feedback Section ========== */
+
+    /* ========== Individual Profiles Section ========== */
+    .individual-profiles-section .browser img {
+        width: 860px;
+    }
+
+    .individual-profiles-section .text-block {
+        padding: 90px 0 0 0;
+        width: 300px;
+    }
+    /* ========== End Of Individual Profiles Section ========== */
+
+    /* ========== Ranking Pages Section ========== */
+    .ranking-pages-section .browser img {
+        width: 930px;
+    }
+
+    .ranking-pages-section .text-block {
+        padding: 120px 0 0 0;
+        width: 250px;
+    }
+    /* ========== End Of Ranking Pages Section ========== */
+
+    /* ========== Professional Profile Section ========== */
+    .professional-profile-section.browser-section {
+        padding: 71px 0 0 0 !important;
+    }
+
+    .professional-profile-section .browser img {
+        width: 930px;
+    }
+
+    .professional-profile-section .text-block {
+        padding: 120px 0 0 0;
+    }
+    /* ========== End Of Professional Profile Section ========== */
+
+    /* ========== Access To Widgets Section ========== */
+    .access-widgets-section .browser img {
+        width: 930px;
+    }
+
+    .access-widgets-section .text-block {
+        padding: 120px 0 0 0;
+    }
+    /* ========== End Of Access To Widgets Section ========== */
+
+    /* ========== Our Clients Section ========== */
+    .our-clients-section .client-logo + .client-logo {
+        margin-left: 40px;
+    }
+
+    .our-clients-section .section-divider {
+        bottom: -88px;
+    }
+    /* ========== End Of Our Clients Section ========== */
+
+    /* ========== Access To Widgets Section ========== */
+    .collect-reviews-section .text-block {
+        width: 310px;
+        padding: 120px 0 0 0;
+    }
+
+    .collect-reviews-section .browser img {
+        width: 570px;
+    }
+    /* ========== End Of Access To Widgets Section ========== */
+
+    /* ========== Statistic Section ========== */
+    .statistic-section .browser img {
+        width: 930px;
+    }
+
+    .statistic-section .text-block {
+        padding: 120px 0 0 0;
+    }
+    /* ========== End Of Statistic Section ========== */
+
+    /* ========== Customer Comments Section ========== */
+    .firms.slider .slick-list {
+        width: 940px;
+    }
+    /* ========== End Of Customer Comments Section ========== */
+}
+
+@media only screen and (max-width: 1460px) {
+    /* ========== Benefits Section ========== */
+    .mobile-customer-reviews, .mobile-rating {
+        width: 370px;
+    }
+
+    .mobile-rating {
+        top: 145px;
+        left: calc(50% - 52px);
+    }
+
+    .mobile-customer-reviews {
+        bottom: 90px;
+        left: calc(50% - 302px);
+    }
+    /* ========== End Of Benefits Section ========== */
+}
+
+@media only screen and (max-width: 1345px) {
+    /* ========== Google Rating Section ========== */
+    .google-rating-section .browser img {
+        width: 750px;
+    }
+    /* ========== End Of Google Rating Section ========== */
+
+    /* ========== Client Feedback Section ========== */
+    .client-feedback-section .browser img {
+        width: 750px;
+    }
+    /* ========== End Of Client Feedback Section ========== */
+
+    /* ========== Individual Profiles Section ========== */
+    .individual-profiles-section .browser img {
+        width: 820px;
+    }
+    /* ========== End Of Individual Profiles Section ========== */
+
+    /* ========== Ranking Pages Section ========== */
+    .ranking-pages-section .browser img {
+        width: 820px;
+    }
+    /* ========== End Of Ranking Pages Section ========== */
+
+    /* ========== Professional Profile Section ========== */
+    .professional-profile-section .browser img {
+        width: 820px;
+    }
+    /* ========== End Of Professional Profile Section ========== */
+
+    /* ========== Access To Widgets Section ========== */
+    .access-widgets-section .browser img {
+        width: 820px;
+    }
+    /* ========== End Of Access To Widgets Section ========== */
+
+    /* ========== Collect Reviews Section ========== */
+    .collect-reviews-section .browser.right {
+        right: 35px;
+    }
+    /* ========== End Of Collect Reviews Section ========== */
+
+    /* ========== Statistic Section ========== */
+    .statistic-section .browser img {
+        width: 820px;
+    }
+    /* ========== End Of Statistic Section ========== */
+}
+
+@media only screen and (max-width: 1240px) {
+    /* -------------------- Globals -------------------- */
+    .container {
+        width: 940px;
+    }
+
+    .browser-section,
+    .google-facebook-section .container,
+    .tailored-review-section .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .browser-section .browser,
+    .google-facebook-section .pull-left,
+    .tailored-review-section .pull-left {
+        order: 1;
+    }
+
+    .client-feedback-section .text-block,
+    .google-rating-section .text-block,
+    .tailored-review-section .text-block
+    .google-facebook-section .text-block {
+        margin-bottom: 50px !important;
+    }
+
+    .text-block {
+        width: 100% !important;
+        max-width: inherit;
+        text-align: center !important;
+        padding: 0 120px !important;
+        margin-bottom: 25px !important;
+    }
+
+    section .browser {
+        width: 100%;
+        left: auto !important;
+        right: auto !important;
+    }
+
+    section .browser > img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .browser-section {
+        padding: 91px 0 0 0;
+    }
+    /* -------------------- End Of Globals -------------------- */
+
+    /* ========== Intro Section ========== */
+    .intro-section .join-now {
+        width: 490px;
+    }
+
+    .join-now .logo-rs.lg {
+        width: 307px;
+        height: 62px;
+    }
+
+    .intro-section .start-form {
+        width: 100%;
+    }
+
+    #intro .join-now .control-form {
+        margin: 0!important;
+    }
+
+    #intro .download-brochure {
+        width: 21.7vw!important;
+    }
+
+    #intro .download-brochure strong {
+        font-size: 18px;
+    }
+
+    .join-now .btn-md {
+        font-size: 15px;
+    }
+    /* ========== End Of Intro Section ========== */
+
+    /* ========== Advantages Section ========== */
+    .advantages-section .col-md-4 {
+        width: 50%;
+    }
+
+    .advantages-section .col-md-4:nth-child(2) .advantage:before {
+        display: none;
+    }
+
+    .advantages-section .col-md-4:last-child {
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    /* ========== End Of Advantages Section ========== */
+
+    /* ========== Benefits Section ========== */
+    .benefits-section {
+        max-height: inherit;
+        height: auto;
+    }
+
+    .benefits-section .col-md-6 {
+        width: 100%;
+    }
+
+    .devices img {
+        position: relative;
+    }
+
+    .mobile-customer-reviews, .mobile-rating {
+        width: 430px;
+    }
+
+    .benefits-section .devices {
+        padding: 60px 0;
+    }
+
+    .mobile-customer-reviews {
+        bottom: -58px;
+        left: calc(50% - 357px);
+    }
+
+    .mobile-rating {
+        top: 0;
+        left: calc(50% - 490px);
+    }
+    /* ========== End Of Benefits Section ========== */
+
+    /* ========== Google And Facebook Section ========== */
+    .google-facebook-section .scheme {
+        top: 0 !important;
+    }
+
+    .google-facebook-section .scheme,
+    .tailored-review-section .scheme {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text-block {
+        margin-bottom: 60px;
+    }
+
+    .google-facebook-section {
+        padding: 91px 0;
+    }
+
+    .google-facebook-section .text-block h3 {
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .google-facebook-section .section-divider {
+        bottom: -91px;
+    }
+    /* ========== End Of Google And Facebook Section ========== */
+
+    /* ========== Tailored Review Section ========== */
+    .tailored-review-section {
+        padding: 91px 0;
+    }
+    /* ========== End Of Tailored Review Section ========== */
+
+    /* ========== Client Feedback Section ========== */
+    .client-feedback-section {
+        padding: 10px 0 0 0;
+    }
+    /* ========== End Of Client Feedback Section ========== */
+
+    /* ========== Professional Profile Section ========== */
+    .professional-profile-section.browser-section {
+        padding: 91px 0 0 0 !important;
+    }
+    /* ========== End Of Professional Profile Section ========== */
+
+    /* ========== Customer Comments Section ========== */
+    .firms.slider .slick-list {
+        width: 600px;
+    }
+
+    .slick-arrow.prev {
+        left: 40px;
+    }
+
+    .slick-arrow.next {
+        right: 40px;
+    }
+    /* ========== End Of Customer Comments Section ========== */
+
+    /* ========== Our Clients Section ========== */
+    .our-clients-section .widgets {
+        text-align: center;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .our-clients-section .client-logo {
+        margin: 0 20px;
+
+    }
+
+    .our-clients-section .client-logo img {
+        margin-bottom: 20px;
+    }
+
+    .our-clients-section .widgets:last-child img {
+        margin: 0;
+    }
+    /* ========== End Of Our Clients Section ========== */
+
+    /* ========== Collect Reviews Section ========== */
+    .collect-reviews-section .text-block h3 {
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ========== End Of Collect Reviews Section ========== */
+}
+
+@media only screen and (max-width: 991px) {
+    /* ========== Navigation Bar ========== */
+    .container {
+        width: 770px;
+    }
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0;
+        background-size: 251px;
+        width: 68px;
+        background-position: left;
+        left: calc(50% - 28px);
+    }
+    /* ========== End Of Navigation Bar ========== */
+
+    /* ========== Intro Section ========== */
+
+    .links-login {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .join-now .logo-rs {
+        display: none;
+    }
+
+    .download-brochure {
+        position: relative;
+        bottom: auto;
+    }
+
+    .join-now .divider {
+        width: 100%;
+        border-bottom: 2px solid #f1f2f2;
+        left: 0;
+    }
+
+    .download-brochure {
+        margin-top: 45px;
+    }
+
+    .download-brochure h4 {
+        line-height: 20px;
+    }
+    /* ========== End Of Intro Section ========== */
+
+    /* ========== Advantages Section ========== */
+    .advantages-section .col-md-4 {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .advantage {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .advantage:before {
+        height: 0;
+        width: 100%;
+        border-right: none;
+        border-bottom: 3px dotted #f1f2f2;
+        top: inherit;
+        bottom: -55px;
+    }
+
+    .advantages-section .col-md-4:nth-child(2) .advantage:before {
+        display: block !important;
+    }
+
+    .advantages-section .col-md-4 + .col-md-4 {
+        margin-top: 90px !important;
+    }
+    /* ========== End Of Advantages Section ========== */
+
+    /* ========== Google And Facebook Section ========== */
+    .google-facebook-section .text-block h3 {
+        width: 100%;
+    }
+    /* ========== End Of Google And Facebook Section ========== */
+
+    /* ========== Collect Reviews Section ========== */
+    .collect-reviews-section .text-block h3 {
+        width: 100%;
+    }
+    /* ========== End Of Collect Reviews Section ========== */
+
+    /* ========== Our Clients Section ========== */
+    .our-clients-section .client-logo img {
+        margin-bottom: 10px;
+    }
+    /* ========== End Of Our Clients Section ========== */
+
+    /* ========== Customer Comments Section ========== */
+    .firms.slider .slick-list {
+        width: 470px;
+    }
+
+    .slider .slick-arrow {
+        top: 95px;
+    }
+    /* ========== End Of Customer Comments Section ========== */
+
+    /* ========== Request Demonstration Section ========== */
+    .request-demonstration-section .start-form .col-md-6 + .col-md-6 {
+        margin-top: 25px;
+    }
+
+    .request-demonstration-section .start-form {
+        width: 600px;
+    }
+    /* ========== End Of Request Demonstration Section ========== */
+}
+
+@media only screen and (max-width: 880px) {
+    /* -------------------- Globals -------------------- */
+    .individual-profiles-section .browser img,
+    .ranking-pages-section .browser img,
+    .professional-profile-section .browser img,
+    .access-widgets-section .browser img,
+    .statistic-section .browser img {
+        width: 675px;
+    }
+    /* -------------------- End Of Globals -------------------- */
+
+    /* ========== Navigation Bar ========== */
+    .navbar .container {
+        width: 640px;
+    }
+
+    .top-bar .navbar-right {
+        margin-right: 0;
+    }
+    /* ========== End Of Navigation Bar ========== */
+
+    /* ========== Advantages Section ========== */
+    .mobile-customer-reviews, .mobile-rating {
+        width: 350px;
+    }
+
+    .mobile-rating {
+        left: calc(50% - 400px);
+    }
+
+    .mobile-customer-reviews {
+        left: calc(50% - 288px);
+    }
+    /* ========== End Of Advantages Section ========== */
+
+    /* ========== Google Rating Section ========== */
+    .google-rating-section .browser img {
+        width: 620px;
+    }
+    /* ========== End Of Google Rating Section ========== */
+
+    /* ========== Google And Facebook Section ========== */
+    .google-facebook-section img.scheme {
+        width: 500px;
+    }
+    /* ========== End Of Google And Facebook Section ========== */
+
+    /* ========== Tailored Review Section ========== */
+    .tailored-review-section img.scheme {
+        width: 440px;
+    }
+    /* ========== End Of Tailored Review Section ========== */
+
+    /* ========== Client Feedback Section ========== */
+    .client-feedback-section .browser img {
+        width: 620px;
+    }
+    /* ========== End Of Client Feedback Section ========== */
+
+    /* ========== Collect Reviews Section ========== */
+    .collect-reviews-section .browser img {
+        width: 480px;
+    }
+    /* ========== End Of Collect Reviews Section ========== */
+
+    /* ========== Our Clients Section ========== */
+    .our-clients-section .client-logo img {
+        margin-bottom: -5px;
+        transform: scale(0.8);
+    }
+
+    .our-clients-section .widgets + .widgets {
+        padding: 15px 0 0 0;
+    }
+    /* ========== End Of Our Clients Section ========== */
+
+    /* ========== Leader Package Section ========== */
+    .benefits-block {
+        width: 562px;
+    }
+    /* ========== End Of Leader Package Section ========== */
+
+    /* ========== Request Demonstration Section ========== */
+    .request-demonstration-section .start-form {
+        width: 500px;
+    }
+    /* ========== End Of Request Demonstration Section ========== */
+}
+
+@media only screen and (max-width: 795px) {
+    /* -------------------- Globals -------------------- */
+    .container {
+        width: 510px;
+    }
+
+    .text-block {
+        padding: 0 !important;
+    }
+    /* -------------------- End Of Globals -------------------- */
+
+    /* ========== Advantages Section ========== */
+    .advantage {
+        width: 100%;
+    }
+    /* ========== End Of Advantages Section ========== */
+
+    /* ========== End Of Our Clients Section ========== */
+    .our-clients-section .client-logo + .client-logo {
+        margin-left: 40px;
+    }
+
+    .our-clients-section .client-logo img {
+        margin-bottom: 10px;
+    }
+
+    .our-clients-section .widgets {
+        width: 100%;
+    }
+
+    .our-clients-section .client-logo {
+        margin: 0 -50px;
+    }
+
+    .widgets a:last-child, .widgets a:last-child img {
+        margin: 0;
+    }
+    /* ========== End Of Our Clients Section ========== */
+
+    /* ========== Customer Comments Section ========== */
+    .firms.slider .slick-list {
+        width: 100%;
+    }
+
+    .slick-arrow.next {
+        right: 20px;
+    }
+
+    .slick-arrow.prev {
+        left: -20px;
+    }
+
+    .slider .slick-arrow {
+        top: 75px;
+    }
+
+    .firms.slider .ic-quote {
+        top: 4px;
+    }
+
+    .customer-comments-section h1 br {
+        display: none;
+    }
+    /* ========== End Of Customer Comments Section ========== */
+
+    /* ========== Leader Package Section ========== */
+    .benefits-block {
+        width: 100%;
+        padding: 40px 40px;
+    }
+    /* ========== End Of Leader Package Section ========== */
+
+    /* ========== Request Demonstration Section ========== */
+    .request-demonstration-section .start-form {
+        width: 100%;
+    }
+    /* ========== End Of Request Demonstration Section ========== */
+}
+
+@media only screen and (max-width: 768px) {
+    /* ========== Navigation Bar ========== */
+    .top-bar .navbar-header {
+        float: left;
+        margin: 0;
+    }
+
+    .top-bar .nav-links {
+        display: inline-block;
+        float: right;
+    }
+
+    .top-bar {
+        height: 60px;
+    }
+
+    .top-bar .nav.navbar-nav:first-child {
+        display: none;
+    }
+
+    .top-bar .nav > li > a, .top-bar .nav > li {
+        display: inline-block;
+    }
+
+    .top-bar .logo-rs {
+        position: relative;
+        top: 8px;
+        left: inherit !important;
+        background-size: cover !important;
+        width: 251px !important;
+    }
+
+    .top-bar .navbar-nav {
+        margin: 0;
+    }
+
+    .top-bar .navbar-right {
+        top: 13px;
+    }
+    /* ========== End Of Navigation Bar ========== */
+
+    #intro .introtext {
+        font-size: 2.25vw;
+        margin: 0 0 5vw;
+    }
+
+    .navbar {
+        height: 67px;
+    }
+
+    .advantage {
+        width: 100%;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    /* ========== Navigation Bar ========== */
+    .navbar .container {
+        width: 100%;
+        padding: 0 50px;
+    }
+    /* ========== End Of Navigation Bar ========== */
+}
+
+@media only screen and (max-width: 718px) {
+    /* ========== Benefits Section ========== */
+    .mobile-customer-reviews, .mobile-rating {
+        width: 310px;
+    }
+
+    .mobile-rating {
+        left: calc(50% - 355px);
+    }
+
+    .mobile-customer-reviews {
+        left: calc(50% - 255px);
+    }
+    /* ========== End Of Benefits Section ========== */
+}
+
+@media only screen and (max-width: 690px) {
+    /* -------------------- Globals -------------------- */
+    .individual-profiles-section .browser img,
+    .ranking-pages-section .browser img,
+    .professional-profile-section .browser img,
+    .access-widgets-section .browser img,
+    .statistic-section .browser img {
+        width: 616px;
+    }
+    /* -------------------- End Of Globals -------------------- */
+
+    /* ========== Google Rating Section ========== */
+    .google-rating-section .browser img {
+        width: 570px;
+    }
+    /* ========== End Of Google Rating Section ========== */
+
+    /* ========== Client Feedback Section ========== */
+    .client-feedback-section .browser img {
+        width: 570px;
+    }
+    /* ========== End Of Client Feedback Section ========== */
+
+    /* ========== Customer Comments Section ========== */
+    .slider .slick-arrow {
+        width: 25px;
+        height: 57px;
+    }
+    /* ========== End Of Customer Comments Section ========== */
+}
+
+@media only screen and (max-width: 605px) {
+    /* ========== Navigation Bar ========== */
+    .top-bar .navbar-header {
+        width: 50%;
+    }
+
+    .top-bar {
+        height: 112px;
+    }
+
+    .top-bar .logo-rs {
+        width: 100% !important;
+    background-size: cover !important;
+        background-position: center !important;
+    }
+  
+
+    .top-bar .nav-links {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+    .navbar .container {
+        padding: 0;
+    }
+
+    .top-bar .navbar-right {
+        top: 20px;
+    }
+    /* ========== End Of Navigation Bar ========== */
+}
+
+@media only screen and (min-width: 991px) and (max-height: 900px) {
+    /* ========== Intro Section ========== */
+    .join-now .download-brochure {
+        bottom: 32px;
+    }
+
+    .join-now .logo-rs {
+        margin: 22px auto 0 auto;
+    }
+
+    .intro-section .start-form {
+        top: calc(50% - 370px);
+    }
+
+    .join-now .input-group + .input-group {
+        margin-top: 22px;
+    }
+
+    .join-now p {
+        margin-bottom: 24px;
+    }
+
+    .intro-section .start-form {
+        top: calc(50% - 363px);
+    }
+    /* ========== End Of Intro Section ========== */
+}
+
+@media only screen and (min-width: 991px) and (max-height: 780px) {
+    /* ========== Intro Section ========== */
+    .join-now p {
+        margin-bottom: 20px;
+    }
+
+    .join-now h1 {
+        margin: 0 0 10px 0 !important;
+    }
+
+    .join-now .input-group + .input-group {
+        margin-top: 20px;
+    }
+
+    .intro-section .start-form {
+        top: calc(50% - 352px);
+    }
+    /* ========== End Of Intro Section ========== */
+}
+
+@media only screen and (min-width: 991px) and (max-height: 777px) {
+    /* ========== Intro Section ========== */
+    .intro-section {
+        min-height: 777px;
+    }
+    /* ========== End Of Intro Section ========== */
+}
+
+/*@media only screen and (min-height: 900px) {*/
+/*}*/
+
+/*@media only screen and (max-height: 900px) {}*/
+/* ------------------------------------------------------------------------ End Of Responsive ------------------------------------------------------------------------ */
+
+
+
+/*
+
+
+### Version 2 stuff
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+input:active {
+    outline: none;
+}
+
+.navbar {
+    background-color: #00af54;
+    width: 100vw;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6.8vw 0 13.5vw;
+}
+
+.navbar .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-rs {
+    width: 252px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav .badge-phone-number {
+    background-color: white;
+    width: 191px;
+    height: 100%;
+    text-align: center;
+    padding: 29px 18px;
+    color: #00af54;
+    font-size: 18px;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-sm {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    color: #00af54;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 27px;
+    border-radius: 2vw;
+    margin: 0 0 0 27px;
+    cursor: pointer;
+}
+
+#intro .content {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.1vw 1.6vw 0 12.5vw;
+}
+
+#intro .content .title {
+    font-size: 2.4vw;
+    font-weight: 700;
+    color: #00af54;
+    margin: 3.9vw 0 2.9vw;
+}
+
+#intro .container {
+    width: 57%;
+}
+
+#intro .content .video {
+    width: 100%;
+    height: 24.2vw;
+}
+
+#intro .content .morethan {
+    font-size: 2.1vw;
+    font-weight: 700;
+    color: #00af54;
+    margin: 3vw 0 1.6vw;
+}
+
+#intro .logo-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 6vw;
+}
+
+#intro .logo-google img {
+    width: 6vw;
+}
+
+#intro .face img {
+    width: 8vw;
+}
+
+#intro .twit img {
+    width: 4.7vw;
+}
+
+#intro .introtext {
+    font-size: 1.25vw;
+    color: black;
+    line-height: 1.5;
+    margin: 0 0 2vw;
+}
+
+#intro .introtext strong {
+    font-weight: 500;
+}
+
+#intro .face {
+    width: 8vw;
+}
+
+#intro .twit {
+    width: 4.7vw;
+}
+
+#intro .content .tel {
+    background-color: #00af54;
+    padding: 1.1vw 0.9vw;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#intro .join-now {
+    width: 40%;
+    border: 3px solid #00af54;
+    padding: 3% 6.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro .input-group,
+.start-form {
+    width: 100%;
+}
+
+#intro .join-now h1 {
+    font-size: 1.9vw;
+    color: #00af54;
+    text-align: center;
+}
+
+#intro .join-now p {
+    font-size: 0.94vw;
+    color: black;
+    text-align: center;
+    margin: 2.8vw 0;
+}
+
+#intro .join-now .control-form {
+    width: 100%;
+    border: 2px solid #00af54;
+    border-radius: 2vw;font-weight: 400;
+    font-size: 0.84vw;
+    padding: 0.73vw 0 0.73vw 4.4vw;
+    margin: 0 0 1vw;
+    background-color: #f1f2f2;
+}
+
+#intro .join-now .control-form::placeholder {
+    color: #acacac;
+}
+
+#firm1 {
+    background-image: url(../../img/sales/Name-of-Law-Firm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#firstname,
+#surname {
+    background-image: url(../../img/sales/firstName-of-Law-Firm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#email {
+    background-image: url(../../img/sales/email-of-Law-Firm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#phonenumber {
+    background-image: url(../../img/sales/phone-of-Law-Firm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro .btn-md {
+    color: white;
+    background-color: #00af54;
+    width: 100%;
+    text-align: center;
+    padding: 0.8vw 0;
+    text-transform: uppercase;
+    font-size: 0.84vw;
+    font-weight: 600;
+    border-radius: 2vw;
+    border: none;
+    outline: none;
+    margin: 0 0 2.2vw;
+
+}
+
+#intro .download-brochure {
+    background-image: url(../../img/sales/pdf.png);
+    background-position: 10%;
+    background-size: 19%;
+    background-repeat: no-repeat;
+    width: 13.7vw;
+    padding: 1.2vw 1.2vw;
+    text-align: right;
+    background-color: #00af54;
+    color: white;
+    font-weight: 800;
+    font-size: 0.94vw;
+}
+
+#intro .download-brochure strong {
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+#intro .text-wrapper {
+    padding: 0 0 2.6vw;
+}
+
+#case {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.9vw 2.6vw 2.9vw 13.5vw;
+    background-color: #f6f6f6;
+
+}
+
+#case p {
+    font-size: 1.25vw;
+}
+
+#case h1 {
+    font-size: 1.88vw;
+    color: #00af54;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 3.23vw;
+}
+
+/*slider*/
+
+.slider {
+    width: 100%;
+    margin: 3vw auto 0;
+}
+
+.slick-slide {
+    margin: 0px 2.9vw 0 0;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 70px;
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 0;
+}
+
+.slick-active {
+    opacity: .8;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slider .logoFirm {
+    max-width: 78%;
+    margin: 30px 0 20px;
+}
+
+.slider .logoFirm1 {
+    max-width: 40%;
+}
+
+.slider .logoFirm2 {
+    max-width: 28%;
+}
+
+#case .slider p {
+    font-size: 0.9vw;
+    color: #00af54;
+    text-align: left;
+    line-height: 1.3;
+}
+
+#case .slider a {
+    color: #3d3d3d;
+    font-size: 0.9vw;
+    text-decoration: underline;
+}
+
+@media all and (max-width:425px) {
+    #intro .download-brochure {
+        width: 50.7vw;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .navbar {
+        background-color: #00af54;
+        padding: 0 5.8vw 0 7.5vw;
+    }
+
+    #intro .content {
+        padding: 1.1vw 1.6vw 0 7.5vw;
+    }
+
+    #case {
+        padding: 2.9vw 2.6vw 2.9vw 7.5vw;
+    }
+
+    #intro .face {
+        width: 6vw;
+    }
+
+    .slick-prev {
+        left: -34px;
+    }
+
+    .slick-next {
+        right: -4px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .logo-rs {
+        width: 180px;
+    }
+
+    .logo-rs img {
+        width: 31vw;
+    }
+
+    #intro .content {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.1vw 0 0;
+    }
+
+    #intro .container {
+        width: 76%;
+    }
+
+    #intro .content .tittle {
+        font-size: 3.6vw;
+        margin: 3.9vw 0 2.9vw;
+    }
+
+    #intro .content .h1 {
+        font-size: 3.1vw;
+        margin: 4vw 0 3.6vw;
+    }
+
+    #intro .p {
+        font-size: 2.25vw;
+        line-height: 1.5;
+        margin: 0 0 2vw;
+    }
+
+    #intro .logo-google img,
+    #intro .logo-google {
+        width: 9vw;
+    }
+
+    #intro .face img,
+    #intro .face {
+        width: 14vw;
+    }
+
+    #intro .twit img,
+    #intro .twit {
+        width: 8.7vw;
+    }
+
+    #intro .content .video {
+        width: 100%;
+        height: 38.2vw;
+    }
+
+    #intro .content .tel {
+        padding: 2.1vw 1.9vw;
+        font-size: 2.5vw;
+    }
+
+    #intro .join-now {
+        width: 76%;
+        padding: 6% 9.4%;
+        margin-top: 5vw;
+    }
+
+    #intro .join-now h1 {
+        font-size: 3.9vw;
+    }
+
+    #intro .join-now p {
+        font-size: 2vw;
+    }
+
+    #intro .join-now .control-form {
+        border-radius: 6vw;
+        font-size: 2vw;
+        padding: 2.73vw 0 2.73vw 11.4vw;
+        margin: 0 0 4.7vw;
+        background-size: contain;
+    }
+
+    #firm1 {
+        background-size: contain;
+    }
+
+    #intro .btn-md {
+        width: 100%;
+        padding: 2.8vw 0;
+        font-size: 2vw;
+        border-radius: 5vw;
+        margin: 0 0 4.2vw;
+    }
+
+    #intro .download-brochure strong {
+        font-size: 2vw;
+    }
+
+    #intro .download-brochure {
+        width: 30.7vw!important;
+        padding: 4.2vw 3.4vw;
+        font-size: 2vw;
+    }
+
+    #case h1 {
+        font-size: 3.88vw;
+        margin: 0 0 5.23vw;
+    }
+
+    #case p {
+        font-size: 2.25vw;
+    }
+
+    #case .text-wrapper p br {
+        display: none
+    }
+
+    #case {
+        padding: 8.9vw 4.6vw 2.9vw 11.5vw;
+    }
+
+    .slider {
+        width: 77%;
+        margin: 8vw auto 0;
+    }
+
+    .slick-next {
+        right: -19px;
+    }
+
+    #case .slider p {
+        font-size: 2.9vw;
+    }
+
+    #case .slider a {
+        font-size: 2.4vw;
+    }
+
+    .navbar-nav .badge-phone-number {
+        background-color: white;
+        width: auto;
+        padding: 23px 11px;
+        font-size: 2.4vw;
+    }
+
+    .link-sm {
+        font-size: 2.4vw;
+    }
+
+    .btn-sm {
+        font-size: 2.4vw;
+        padding: 6px 10px;
+        border-radius: 2vw;
+        margin: 0 0 0 19px;
+    }
+
+    .navbar {
+        padding: 0 1.8vw 0 2.5vw;
+        height: 55px;
+    }
+
+}

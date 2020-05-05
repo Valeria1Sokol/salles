@@ -1,0 +1,45 @@
+header .img-header-b {
+    margin: 20px 0;
+}
+
+header .img-header .btnSearch {
+    top: 0;
+}
+
+.sliderText input {
+    width: 340px;
+}
+
+.benefitsText .lineSmall {
+    width: 430px;
+}
+
+.personal {
+    margin-top: 4vw;
+}
+
+.conveyancing {
+    margin-top: 11vw;
+}
+
+
+@media all and (max-width: 1600px) {
+    .benefitsText {
+        padding: 8vw 0vw 0 0;
+        position: relative;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .business {
+        margin: 18vw 11vw 0 0;
+    }
+
+    .personal {
+        margin-top: 6vw;
+    }
+
+    .clinical {
+        margin: 33vw 0 0 12vw;
+    }
+}

@@ -1,0 +1,200 @@
+.bookWidget {
+    width: 3.6vw;
+    height: 19.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00AD5C;
+    float: left;
+}
+
+.bookClickableWidget {
+    cursor: pointer;
+}
+
+.bookWidget header {
+    width: 100%;
+    background-color: transparent;
+}
+
+.bookWidget header img {
+    width: 100%;
+    margin: -0.3vw 0 0;
+}
+
+.bookWidget footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -7.3vw;
+}
+
+.bookWidget p {
+
+    color: white;
+    width: 16vw;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    font-size: 1vw!important;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+
+.requestWidget {
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    right: 0;
+}
+
+.requestWidget header {
+    display: flex;
+    flex-direction: column;
+}
+
+.requestWidget header img {
+    margin: 0;
+    width: 100%;
+    height: 4vw;
+}
+
+.adviceWidget {
+    background-image: url("../img/Review-Solicitors-Widgets_Final_161019.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    height: 15.4vw;
+    width: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adviceWidget footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    transform: rotate(-90deg);
+    position: relative;
+}
+
+.adviceWidget p {
+
+    color: white;
+    width: 16vw;
+    text-transform: uppercase;
+    margin: 0 3vw 0 0;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    font-size: 1vw!important;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+
+.appointment-widget {
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    height: 83px;
+}
+
+@media all and (max-width:768px) {
+
+    .bookWidget {
+        width: 5.6vw;
+        height: 29.4vw;
+    }
+
+    .bookWidget footer {
+        top: -10.6vw;
+    }
+
+    .bookWidget p {
+        width: 20vw;
+        font-size: 1.5vw!important;
+    }
+
+    .requestWidget header img {
+
+        height: 5.5vw;
+    }
+
+    .adviceWidget {
+        height: 24.5vw;
+        width: 5.6vw;
+    }
+
+    .adviceWidget header img {
+        width: 5.8vw;
+    }
+
+    .adviceWidget p {
+        width: 20vw;
+        font-size: 1.5vw;
+        margin: 0 4vw 0 0;
+    }
+}
+
+@media all and (max-width:425px) {
+    .bookWidget {
+       width: 10vw;
+    height: 58.4vw;
+    }
+
+    .requestWidget header img {
+        height: 11.5vw;
+    }
+
+    .bookWidget p {
+       width: 40vw;
+       font-size: 3vw!important;
+    }
+    .bookWidget footer {
+    top: -21.8vw;
+
+    }
+
+    .bookWidget header img {
+        width: 100%;
+        margin: -0.6vw 0 0;
+    }
+    .adviceWidget header img {
+        width: 10.6vw;
+        margin: -0.2vw -1px 0;
+    }
+
+    .adviceWidget {
+        height: 51.4vw;
+        width: 10vw;
+    }
+
+    .adviceWidget p {
+        width: 40vw;
+        font-size: 2.4vw!important;
+        margin: 0;
+    }
+
+    #recaptchaAppointment {
+        transform:scale(0.88);
+        -webkit-transform:scale(0.88);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+
+}
+
+@media all and (max-width:320px) {
+    .adviceWidget header img {
+        width: 10.5vw;
+    }
+}

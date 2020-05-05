@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Review Solicitors | Welcome</title>
+    <link rel="SHORTCUT ICON" href="/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, target-densityDpi=device-dpi">
+
+    <meta name="description" content="Read ReviewSolicitors solicitor reviews and ratings from past clients with UK&#39;s leading solicitor review site." />
+    <meta name="keywords" content="ReviewSolicitors solicitor reviews" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:site" content="@reviewsolicitor">
+    <meta name="twitter:creator" content="@reviewsolicitor">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Rate and Review any UK Solicitor with ReviewSolicitors">
+    <!-- less than 200 chars -->
+    <meta name="twitter:description" content="ReviewSolicitors :solicitor reviews and ratings from past clients, the UK&#39;s leading solicitor review site.">
+    <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="assets/img/footer-logo.png" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Rate and Review any UK Solicitor with ReviewSolicitors" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.reviewsolicitors.com/" />
+    <meta property="og:description" content="ReviewSolicitors :solicitor reviews and ratings from past clients, the UK&#39;s leading solicitor review site." />
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N59R6F');
+
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,500i,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/sales/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="assets/sales/font-awesome/fontawesome-all.min.css">
+    <!-- slick slider-->
+    <link rel="stylesheet" type="text/css" href="assets/sales/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/sales/slick/slick-theme.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/sales/style.css" />
+    <link rel="stylesheet" href="assets/css/sales/fix.css" />
+</head>
+
+<body>
+    <!-- ================================================= Navigation Bar ============================================================ -->
+    <nav class="navbar navbar-default navbar-fixed-top top-bar show">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo-rs white sm" href="#"></a>
+            </div>
+
+            <div class="nav-links" id="">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="tel:03335770206" class="badge"><span class="badge-phone-number">0333 577 0206</span></a>
+                    </li>
+                </ul>
+                <div class="navbar-header"></div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/signup/solicitor" class="link-sm white">Register</a></li>
+                    <li><a href="/my-dashboard" class="btn-sm white">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ================================================= End Of Navigation Bar ============================================================ -->
+
+    <!-- ================================================= Intro Section ============================================================ -->
+    <section id="intro" class="intro-section st">
+        <div class="content">
+            <div class="container">
+                <div class="text-wrapper">
+                    <p class="title">Watch how ReviewSolicitors works</p>
+                    <iframe class='video' src="https://www.youtube.com/embed/nOBjJyGxdmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <a href="/" class="logo-rs white tablet"></a>
+                    <p class="morethan">
+                        Make reviews work for you
+                    </p>
+                    <p class="introtext">
+                        <span class="logo-google white sm">
+                            <img src="assets/img/sales/google-logo-w.png" alt=""> </span>&nbsp;star ratings,&nbsp;
+                        'reviews from the web', <strong>Widgets</strong> for your site,
+                        <span class="face"><img src="assets/img/sales/Facebook.png" alt=""> </span> and
+                        <span class="twit"><img src="assets/img/sales/twitter.png" alt=""> </span>
+                        integrations, <strong>Verified reviews</strong>, <strong>Monthly reporting</strong>,
+                        and much more.
+                    </p>
+
+                    <a href="tel:03335770206" class="tel"><span class="badge-phone-number">0333 577 0206</span></a>
+                </div>
+            </div>
+            <div class="join-now">
+                <form action="/sales" method="post" class="start-form">
+                    <h1>Join Now</h1>
+                    <p>
+                        To gain access to your firm's <br>
+                        listing on ReviewSolicitors
+                    </p>
+                    <div class="input-group">
+                        <input type="text" class="control-form" name="branchname" id="firm1" placeholder="Name of Law Firm:" required />
+                        <div id="firm-menu-container1"></div>
+                        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                        <input type='hidden' name='branchID' class='branchSelect' />
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="control-form" id="firstname" name='firstname' placeholder="First Name:" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="control-form" id="surname" name='lastname' placeholder="Surname:" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="email" class="control-form" id="email" name='email' placeholder="Email:" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" class="control-form" id="phonenumber" name='phone' placeholder="Phone Number:" required />
+                    </div>
+                    <div class="input-group">
+                        <button class="btn-md">Start Collecting Reviews Today<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1787004&conversionId=1919972&fmt=gif" /></button>
+                    </div>
+                </form>
+                <a target="_blank" href="assets/pdf/ReviewSolicitors-Brochure-May-2019.pdf" class="download-brochure">
+                    <i class="ic-pdf"></i>
+                    <h4><strong>Download</strong><br>Brochure</h4>
+                </a>
+                <span class="divider"></span>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Intro Section ============================================================ -->
+
+    <!-- ================================================= Case Studies Section ============================================================ -->
+
+    <section id="case" class="intro-section st">
+        <div class="content">
+            <div class="container">
+                <div class="text-wrapper">
+                    <h1>Case Studies</h1>
+                    <p>With over 1000 law firms using ReviewSolicitors, why not see for yourself how other firms benefit <br>
+                        from the service and learn how we can support your firm in your review collection journey.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="center slider sallesSlider">
+            <div class="bx">
+                <img src="assets/img/sales/slide1.png">
+                <img src="assets/img/sales/Vector-Smart-Object2.png" class="logoFirm logoFirm1">
+                <p>Dave Richardson<br> CRM Manager</p>
+                <a class="moreOpen1 moreOpen">Read More ></a>
+                <p class="openBox1 openBox">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="bx">
+                <img src="assets/img/sales/slide2.png">
+                <img src="assets/img/sales/Vector-Smart-Object3.png" class="logoFirm logoFirm2">
+                <p>Amy Hickman -<br> Marketing & Business Development Director</p>
+                <a class="moreOpen2 moreOpen"> Read More ></a>
+                <p class="openBox2 openBox">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="bx">
+                <img src="assets/img/sales/slide3.png">
+                <img src="assets/img/sales/Vector-Smart-Object4.png" class="logoFirm">
+                <p>Kristen Drummond<br> Head of Marketing </p>
+                <a class="moreOpen3 moreOpen">Read More ></a>
+                <p class="openBox3 openBox">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="bx">
+                <img src="assets/img/sales/slide1.png">
+                <img src="assets/img/sales/Vector-Smart-Object2.png" class="logoFirm logoFirm1">
+                <p>Dave Richardson<br> CRM Manager</p>
+                <a class="moreOpen1 moreOpen">Read More ></a>
+                <p class="openBox1 openBox">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+            </div>
+            <div class="bx">
+                <img src="assets/img/sales/slide2.png">
+                <img src="assets/img/sales/Vector-Smart-Object3.png" class="logoFirm logoFirm2">
+                <p>Amy Hickman -<br> Marketing & Business Development Director</p>
+                <a class="moreOpen2 moreOpen">Read More ></a>
+                <p class="openBox2 openBox">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="bx">
+                <img src="assets/img/sales/slide3.png">
+                <img src="assets/img/sales/Vector-Smart-Object4.png" class="logoFirm">
+                <p>Kristen Drummond<br> Head of Marketing </p>
+                <a class="moreOpen3 moreOpen">Read More ></a>
+                <p class="openBox3 openBox">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <!-- ================================================= End Of Case Studies Section ============================================================ -->
+
+    <!-- ================================================= Advantages Section ============================================================ -->
+    <section class="advantages-section st">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advantage">
+                        <i class="ic ic-verified-reviews"></i>
+                        <div class="text-wrapper">
+                            <h2>
+                                Verified reviews
+                            </h2>
+                            <p>
+                                We collect verified reviews from
+                                clients on your behalf so you don’t have
+                                the hassle of collecting paper reviews any more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advantage">
+                        <i class="ic ic-reputation"></i>
+                        <div class="text-wrapper">
+                            <h2>
+                                Showcase your <br>
+                                reputation online
+                            </h2>
+                            <p>
+                                You receive a customised widget for your homepage showcasing
+                                your average rating and positive reviews. Your positive reviews
+                                are posted to your social media accounts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advantage">
+                        <i class="ic ic-new-client"></i>
+                        <div class="text-wrapper">
+                            <h2>
+                                Attract new clients & <br>
+                                convert more enquiries
+                            </h2>
+                            <p>
+                                You appear at the top of our search results when people do
+                                localised searches. You are recommended on all pages of rival
+                                firms that are not ReviewSolicitors members.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Advantages Section ============================================================ -->
+
+    <!-- ================================================= Benefits Section ============================================================ -->
+    <section class="benefits-section st">
+
+        <div class="col-md-6 bg-rs">
+            <div class="benefits-block">
+                <h1>The main benefits</h1>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Collect verified reviews from your <br>
+                        clients hassle-free
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Appear at the top of search results for <br>
+                        when people do searches in your region
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Receive a monthly report to track how <br>
+                        your firm is performing
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Receive a customised widget for your <br>
+                        homepage
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Be recommended on all pages of local rival <br>
+                        firms that are not ReviewSolicitors members
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Be able to remove reviews from non-clients <br>
+                        swiftly through your user dashboard
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Be able to add a free-text comment to any <br>
+                        review left on your page
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Gain access to exclusive partner discounts and <br>
+                        preferential rates on indemnity insurance
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Have an enhanced profile page where <br>
+                        you can showcase individual members
+                        of the firm
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check green"></i></span>
+                    <h5>
+                        Receive assistance with your social media - we
+                        post your positive reviews to your Facebook
+                        and Twitter pages
+                    </h5>
+                </div>
+
+                <a target="_blank" href="assets/pdf/ReviewSolicitors-Brochure-May-2019.pdf">
+                    <button class="btn-md white-btn center-block"><i class="ic ic-download"></i>Download Our Brochure</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6 devices">
+            <img src="assets/img/sales/mobile-customer-reviews.png" class="mobile-customer-reviews" alt="">
+            <img src="assets/img/sales/mobile-rating.png" class="mobile-rating" alt="">
+        </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Benefits Section ============================================================ -->
+
+    <!-- ================================================= Google Rating Section ============================================================ -->
+    <section class="google-rating-section browser-section show-btn">
+        <div class="browser left">
+            <img src="assets/img/sales/google-star-rating-browser.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block right">
+                <span class="five-stars"></span>
+                <h3><span class="logo-google lg"></span>star ratings</h3>
+                <p>
+                    Your ReviewSolicitors star rating and collected
+                    reviews will appear on in your organic listings on <span class="logo-google"></span>.
+                    In addition, clients will be able to read the reviews in your “business listing” knowledge panel in the
+                    “Reviews from the web” section - set the right impression.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Google Rating Section ============================================================ -->
+
+    <!-- ================================================= Google And Facebook Section ============================================================ -->
+    <section class="google-facebook-section  show-btn">
+        <div class="container">
+            <div class="text-block left">
+                <h3>
+                    Add Google and Facebook
+                    reviews to your profile
+                </h3>
+                <p>
+                    Showcase all of your reviews in one place. Automatically add Facebook and Google reviews to your
+                    ReviewSolicitors profile with our automated integrations. All reviews collected on each of these
+                    platforms will adjust your ReviewSolicitors star rating which will is then displayed to clients
+                    all around the web.
+                </p>
+            </div>
+            <div class="pull-right">
+                <img src="assets/img/sales/fb-g-scheme.jpg" class="scheme" alt="">
+            </div>
+            <span class="section-divider"></span>
+        </div>
+    </section>
+    <!-- ================================================= End Of Google And Facebook Section ============================================================ -->
+
+    <!-- ================================================= Tailored Review Section ============================================================ -->
+    <section class="tailored-review-section  show-btn">
+        <div class="container">
+            <div class="pull-left">
+                <img src="assets/img/sales/tailored-review-questionnaires-scheme.jpg" class="scheme" alt="">
+            </div>
+            <div class="text-block right">
+                <h3>
+                    Tailored review questionnaires
+                </h3>
+                <p>
+                    All of our questionnaires are specific to the particular service the client used the firm for.
+                    For example, clients who have used the firm for a conveyancing transaction will be asked 4-5
+                    questions specific to conveyancing. This approach gains useful feedback whilst keeping the
+                    questions on topic for each individual client.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Tailored Review Section ============================================================ -->
+
+    <!-- ================================================= Client Feedback Section ============================================================ -->
+    <section class="client-feedback-section browser-section show-btn">
+        <div class="browser right">
+            <img src="assets/img/sales/client-feedback-section.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block left">
+                <h3>Comprehensive client feedback</h3>
+                <p>
+                    By collecting reviews through us directly you will be able to gain valuable
+                    insights into how each department, location and / or solicitor is performing.
+                    This feedback is allows you to quickly see how clients rate the service they
+                    have received from the firm.
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Client Feedback Section ============================================================ -->
+
+    <!-- ================================================= Individual Profiles Section ============================================================ -->
+    <section class="individual-profiles-section browser-section show-btn">
+        <div class="browser left">
+            <img src="assets/img/sales/individual-profiles-browser.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block right">
+                <h3>Individual profiles</h3>
+                <p>
+                    Provide each fee earner with their own profile and allow them to collect reviews underneath
+                    the umbrella of the firm. Allow your team to take pride in their reviews so they can showcase
+                    their reputation to reassure clients that you’re the right firm to instruct.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Individual Profiles Section ============================================================ -->
+
+    <!-- ================================================= Ranking Pages Section ============================================================ -->
+    <section class="ranking-pages-section browser-section show-btn">
+        <div class="browser right">
+            <img src="assets/img/sales/ranking-pages-browser.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block left">
+                <h3>Ranking pages</h3>
+                <p>
+                    It’s your chance to rise to the top. With over 2 million searches each year, it’s important
+                    for clients to be able to differentiate between firms. The reviews you collect through the
+                    platform allow clients to quickly see who the highest rated firm in their area is.
+                    These rankings are based on the reviews you have collected over the last 36 months.
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Ranking Pages Section ============================================================ -->
+
+    <!-- ================================================= Professional Profile Section ============================================================ -->
+    <section class="professional-profile-section browser-section show-btn">
+        <div class="browser left">
+            <img src="assets/img/sales/professional-profile-page-browser.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block right">
+                <h3>Professional Profile Page</h3>
+                <p>
+                    Unlock the power of an enhanced profile page.
+                    List more information about the experience and
+                    expertise available at your firm, giving clients
+                    confidence that you're the firm for them.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Professional Profile Section ============================================================ -->
+
+    <!-- ================================================= Access To Widgets Section ============================================================ -->
+    <section class="access-widgets-section browser-section show-btn">
+        <div class="browser right">
+            <img src="assets/img/sales/access-to-widgets-browser.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block left">
+                <h3>Access to widgets</h3>
+                <p>
+                    ReviewSolicitors allows you to install widgets on your website that will
+                    showcase your 4 and 5-star ratings and reviews in key conversion spots.
+                    Tailor the reviews that are shown and place them on any page of your
+                    website to increase trust and raise client conversion rates.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Access To Widgets Section ============================================================ -->
+
+    <!-- ================================================= Our Clients Section ============================================================ -->
+    <section class="our-clients-section st">
+        <div class="container content">
+            <h1>
+                See our widgets<br>
+                in action
+            </h1>
+
+            <div class="widgets">
+                <a href="https://www.cwj.co.uk/" class="client-logo logo-cwj" target="_blank">
+                    <img src="assets/img/sales/widgets/cwj.png" alt="">
+                </a>
+                <a href="https://www.millerhendrysolicitors.co.uk/" class="client-logo logo-mh" target="_blank">
+                    <img src="assets/img/sales/widgets/Miller-Hendry.png" alt="">
+                </a>
+                <a href="https://www.riaabarkergillette.com/uk/" class="client-logo logo-rgb" target="_blank">
+                    <img src="assets/img/sales/widgets/2018-03-22_19-18-22.jpg" alt="">
+                </a>
+                <a href="http://www.rowberrymorris.co.uk/" class="client-logo logo-rms" target="_blank">
+                    <img src="assets/img/sales/widgets/Rowberry-Morris-(1).jpg" alt="">
+                </a>
+                <a href="http://www.mossfallon.com/" class="client-logo logo-mf" target="_blank">
+                    <img src="assets/img/sales/widgets/2018-03-22_19-34-30.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="widgets">
+                <a href="https://www.seatons.co.uk/" class="client-logo" target="_blank">
+                    <img src="assets/img/sales/widgets/seatons-solicitors-logo-orig.png" alt="">
+                </a>
+                <a href="http://www.coles-law.co.uk/" class="client-logo" target="_blank">
+                    <img src="assets/img/sales/widgets/logo-coles-the-solicitors.png" alt="">
+                </a>
+                <a href="https://www.tozers.co.uk/" class="client-logo" target="_blank">
+                    <img src="assets/img/sales/widgets/Tozers.jpg" alt="">
+                </a>
+                <a href="http://www.fbcmb.co.uk/" class="client-logo" target="_blank">
+                    <img src="assets/img/sales/widgets/FBC.png" alt="">
+                </a>
+                <a href="https://www.qualitysolicitors.com/davisons" class="client-logo" target="_blank">
+                    <img src="assets/img/sales/widgets/QS-davisons.png" alt="">
+                </a>
+            </div>
+
+            <div class="widgets">
+                <a href="https://www.warnergoodman.co.uk/" class="client-logo" target="_blank">
+                    <img src="assets/img/sales/widgets/warnergoodman-logo.jpg" alt="">
+                </a>
+            </div>
+
+            <span class="section-divider"></span>
+        </div>
+    </section>
+    <!-- ================================================= End Of Our Clients Section ============================================================ -->
+
+    <!-- ================================================= Collect Reviews Section ============================================================ -->
+    <section class="collect-reviews-section browser-section show-btn">
+        <div class="browser right">
+            <img src="assets/img/sales/collect-and-feedback-client-email.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block left">
+                <h3>
+                    Collect reviews and client
+                    feedback effectively
+                </h3>
+                <p>
+                    Collecting reviews is our specialism so our review collection success rate is very high.
+                    Our email templates are mobile optimised and boast a 20%-30% conversion rate.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Collect Reviews Section ============================================================ -->
+
+    <!-- ================================================= Statistic Section ============================================================ -->
+    <section class="statistic-section browser-section show-btn">
+        <div class="browser left">
+            <img src="assets/img/sales/insights-and-analytics-browser.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="text-block right">
+                <h3>
+                    Insights & Analytics
+                </h3>
+                <p>
+                    You will have access to review tracking and
+                    MI which allows you to quickly see how your firm is
+                    performing as regards client feedback. This can be broken down by area of
+                    law and can provide some valuable management insights.
+                </p>
+                <p>
+                    In addition to being able to see the latest information in your dashboard we also
+                    provide a handy monthly summary pack to take and use in internal marketing meetings.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Statistic Section ============================================================ -->
+
+    <!-- ================================================= Customer Comments Section ============================================================ -->
+    <section class="customer-comments-section st">
+        <div class="container">
+            <h1>
+                Here's what our members<br>
+                have to say
+            </h1>
+
+            <div class="slider">
+                <button class="prev">
+                    <img src="assets/img/sales/icons/ic-arrow-left.svg" alt="arrow-left">
+                </button>
+                <button class="next">
+                    <img src="assets/img/sales/icons/ic-arrow-right.svg" alt="arrow-left">
+                </button>
+                <div class="firms slider">
+                    <div>
+                        <div class="logo-wrapper">
+                            <img src="assets/img/sales/widgets/logo-coles-the-solicitors.png">
+                        </div>
+                        <h4>Coles Solicitors</h4>
+                        <h5>Peter Gibson <span>Managing Partner</span></h5>
+                        <p>
+                            <img src="assets/img/sales/icons/ic-quote.svg" class="ic-quote" alt='quote'>
+                            We are pleased with the service from the
+                            ReviewSolicitors service, helping to gather client feedback and share it in an easy way through
+                            social media platforms, helping to improve our ranking and therefore conversions.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="logo-wrapper">
+                            <img src="assets/img/sales/widgets/seatons-solicitors-logo-orig.png">
+                        </div>
+                        <h4>Seatons Solicitors</h4>
+                        <h5>John Perry <span>Marketing Manager</span></h5>
+                        <p><img src="assets/img/sales/icons/ic-quote.svg" class="ic-quote" alt='quote'> It’s hard to believe
+                            that such a cost
+                            effective way to market our firm would have such success. But we’ve grown our client base almost
+                            immediately and we couldn’t be happier.</p>
+                    </div>
+                    <div>
+                        <div class="logo-wrapper">
+                            <img src="assets/img/sales/widgets/logo-coles-the-solicitors.png">
+                        </div>
+                        <h4>Coles Solicitors</h4>
+                        <h5>Peter Gibson <span>Managing Partner</span></h5>
+                        <p><img src="assets/img/sales/icons/ic-quote.svg" class="ic-quote" alt='quote'> We are pleased with
+                            the service from the
+                            ReviewSolicitors service, helping to gather client feedback and share it in an easy way through
+                            social media platforms, helping to improve our ranking and therefore conversions.</p>
+                    </div>
+                    <div>
+                        <div class="logo-wrapper">
+                            <img src="assets/img/sales/widgets/seatons-solicitors-logo-orig.png">
+                        </div>
+                        <h4>Seatons Solicitors</h4>
+                        <h5>John Perry <span>Marketing Manager</span></h5>
+                        <p><img src="assets/img/sales/icons/ic-quote.svg" class="ic-quote" alt='quote'> It’s hard to believe
+                            that such a cost
+                            effective way to market our firm would have such success. But we’ve grown our client base almost
+                            immediately and we couldn’t be happier.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Customer Comments Section ============================================================ -->
+
+    <!-- ================================================= Leader Package Section ============================================================ -->
+    <section class="package-leader-section st">
+        <div class="container">
+            <h1>
+                Review Leader package - £299<br>
+                per month
+            </h1>
+            <div class="benefits-block">
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Notification of new reviews via email</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Automatically collect reviews</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Verified reviews badge</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Ability to publicly reply to reviews</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>No advertising on your profile</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Client enquiries directly to your inbox</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Customized widgets</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>Enhanced profile page</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>20,000 impressions on competitor listings</h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>
+                        Incorrect reviews can be removed swiftly
+                        through our dashboard
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>
+                        Lower indemnity insurances costs through
+                        our "low risk partnership"
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>
+                        4 & 5 star reviews automatically published
+                        to your Facebook and Twitter
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>
+                        Appear at the top of our 75,000 monthly
+                        searches for solicitors in your area
+                    </h5>
+                </div>
+                <div class="benefit">
+                    <span class="check"><i class="ic-check"></i></span>
+                    <h5>
+                        Full review on how your firm is performing - this
+                        includes a monthly PDF pack to be used internally
+                    </h5>
+                </div>
+                <a href="#intro">
+                    <button class="btn-md gotoform center-block">Join Now</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================= End Of Leader Package Section ============================================================ -->
+
+    <!-- ================================================= Request Demonstration Section ============================================================ -->
+    <section class="request-demonstration-section st">
+        <div class="container">
+            <h1>Request a demonstration</h1>
+            <form action="/sales" method="post" class="start-form center-block">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <i class="ic ic-building"></i>
+                        <input type="text" class="control-form" name="branchname" id="firm2" placeholder="Name of Law Firm:" required />
+                        <div id="firm-menu-container2"></div>
+                        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                        <input type='hidden' name='branchID' class='branchSelect' />
+                    </div>
+
+                    <div class="input-group">
+                        <i class="ic ic-user"></i>
+                        <input type="text" class="control-form" id="firstname" name='firstname' placeholder="First Name:" required />
+                    </div>
+
+                    <div class="input-group">
+                        <i class="ic ic-phone"></i>
+                        <input type="tel" class="control-form" id="phonenumber" name='phone' placeholder="Phone Number:" required />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <i class="ic ic-building"></i>
+                        <input type="text" class="control-form" id="surname" name='lastname' placeholder="Surname:" required />
+                    </div>
+                    <div class="input-group">
+                        <i class="ic ic-email"></i>
+                        <input type="text" class="control-form" id="email" name='email' placeholder="Email:" required />
+                    </div>
+                    <div class="input-group">
+                        <button class="btn-md">Request<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1787004&conversionId=1919980&fmt=gif" /></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ================================================= End Of Request Demonstration Section ============================================================ -->
+
+    <!-- ================================================= Footer ============================================================ -->
+    <footer class="footer">
+        <div class="content center-block">
+            All of these features, without any of the hassle and administration.
+            Built with your time and reputation in mind - get started today
+        </div>
+    </footer>
+    <!-- ================================================= End Of Footer ============================================================ -->
+
+
+    <!-- bootstrap / jquery -->
+    <script src="assets/sales/jquery/jquery.min.js"></script>
+    <script src="assets/sales/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/sales/slick/slick.js"></script>
+    <script type="text/javascript">
+        var serviceUrl = '/service/v1';
+
+        $(document).on('ready', function() {
+            $(".firms").slick({
+                dots: false,
+                infinite: true,
+                variableWidth: false,
+                slidesToShow: 2,
+                speed: 800,
+                slidesToScroll: 1,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next'),
+                responsive: [{
+                    breakpoint: 1240,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }]
+            });
+
+            if ($('body').width() > 768) {
+                $(".center").slick({
+                    dots: false,
+                    arrow: true,
+                    infinite: true,
+                    centerMode: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+            } else {
+                $(".center").slick({
+                    dots: false,
+                    arrow: true,
+                    infinite: true,
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 3
+                });
+            }
+
+            $('.gotoform').click(function(e) {
+                e.stopImmediatePropagation();
+                $('html,body').animate({
+                    scrollTop: $("body").offset().top
+                });
+                $("#container-to-hide").fadeTo("slow", 0.2, function() {});
+                $("#container-to-hide").click(function() {
+                    $("#container-to-hide").fadeTo("slow", 1.0, function() {});
+                });
+            });
+        });
+
+        loadScriptThen('"assets/js/ext/jquery-ui-1.12.1.min.js', function() {
+            authenticate();
+
+            if ($("input#firm1").length > 0) {
+                $("input#firm1").autocomplete({
+                    source: autocompleteSource,
+                    select: autocompleteSelect,
+                    messages: {
+                        noResults: '',
+                        results: function() {}
+                    },
+                    appendTo: '#firm-menu-container1',
+                    delay: 400,
+                    minLength: 2
+                }).data("ui-autocomplete")._renderItem = autocompleteRender;
+            }
+
+            if ($("input#firm2").length > 0) {
+                $("input#firm2").autocomplete({
+                    source: autocompleteSource,
+                    select: autocompleteSelect,
+                    messages: {
+                        noResults: '',
+                        results: function() {}
+                    },
+                    appendTo: '#firm-menu-container2',
+                    delay: 400,
+                    minLength: 2
+                }).data("ui-autocomplete")._renderItem = autocompleteRender;
+            }
+        });
+
+        var autocompleteSource = function(request, response) {
+            $.ajax({
+                url: serviceUrl + "autocomplete-branch",
+                type: 'GET',
+                cache: false,
+                data: request,
+                dataType: 'json',
+                success: function(json) {
+                    response($.map(json, function(item) {
+                        return {
+                            id: item.id,
+                            url: item.url,
+                            label: item.name,
+                            desc: item.address
+                        };
+                    }));
+                },
+                error: function(xmlHttpRequest, textStatus, errorThrown) {
+                    console.log(textStatus + ', ' + errorThrown);
+                }
+            });
+        };
+
+        var autocompleteSelect = function(event, ui) {
+            if ($('input.branchSelect').length > 0) {
+                $('input.branchSelect').val(ui.item.id);
+                $('input.firm').val(ui.item.label);
+                return true;
+            }
+            return false;
+        };
+
+        var autocompleteRender = function(ul, item) {
+            return $("<li></li>")
+                .data("ui-autocomplete-item", item)
+                .append(item.label + "<br><span><small>" + item.desc + "</small></span>")
+                .appendTo(ul);
+        };
+
+        var authenticateCallback = function(auth) {
+            if (auth) {
+                window.auth = auth;
+                if (auth && auth.authenticated) {
+                    $('.btn.register').hide();
+                    $('.line-register-link').hide();
+                    $('.btn.signin').text('My dashboard');
+                    $('.line-signin-link').text('My dashboard');
+                }
+            }
+        };
+
+        var authenticate = function() {
+            $.ajax({
+                type: 'GET',
+                url: serviceUrl + '/authentication',
+                success: authenticateCallback
+            });
+        };
+
+        function loadScriptThen(src, fn) {
+            if (!window.loadedScripts)
+                window.loadedScripts = [];
+            if (window.loadedScripts.indexOf(src) > -1) {
+                fn();
+                return;
+            }
+            window.loadedScripts.push(src);
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.onreadystatechange = function() {
+                if (this.readyState == 'complete' && fn) fn();
+            }
+            script.onload = fn;
+            script.src = src;
+            head.appendChild(script);
+        };
+
+    </script>
+
+    <script type="text/javascript">
+        _linkedin_partner_id = "1787004";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1787004&fmt=gif" />
+    </noscript>
+
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '591623418081367');
+        fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=591623418081367&ev=PageView&noscript=1" /></noscript>
+    <script>
+        //         відкрити додаткову інфу для desctop
+        var open = $(".sallesSlider");
+        open.each(function() {
+            var openB = $(this);
+            openB.find(".moreOpen1").click(function() {
+                if ($(this).hasClass("moreOpen")) {
+                    openB.find(".openBox1").slideToggle("slow");
+                } else {
+                   
+                    openB.find(".openBox1").slideToggle("slow");
+                }
+            });
+             openB.find(".moreOpen2").click(function() {
+                if ($(this).hasClass("moreOpen")) {
+                    openB.find(".openBox2").slideToggle("slow");
+                } else {
+                   
+                    openB.find(".openBox2").slideToggle("slow");
+                }
+            });
+             openB.find(".moreOpen3").click(function() {
+                if ($(this).hasClass("moreOpen")) {
+                    openB.find(".openBox3").slideToggle("slow");
+                } else {
+                   
+                    openB.find(".openBox3").slideToggle("slow");
+                }
+            });
+
+        })
+        
+
+    </script>
+</body>
+
+</html>

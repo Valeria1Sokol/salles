@@ -1,0 +1,655 @@
+@media all and (max-width: 1920px) {
+    .sliderBox {
+        height: 680px;
+    }
+
+    .benefitsText {
+        padding: 6vw 9vw 0 0vw;
+    }
+
+
+    .typesOfClient {
+        height: 103vw;
+    }
+
+    .typesOfClient p {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 1600px) {
+    .icon .line {
+        margin-top: 6vw;
+    }
+
+
+    .benefitsImg {
+        width: 900px;
+    }
+
+    .benefitsText {
+        padding: 7vw 0vw 0 0;
+        position: relative;
+        left: -3vw;
+    }
+
+    .typesOfClient {
+        height: 104vw;
+    }
+
+    .bText p {
+        font-size: 22px;
+    }
+
+    .benefitsText .lineSmall {
+        width: 503px;
+    }
+
+    .typesImg {
+        left: -3vw;
+    }
+}
+
+@media all and (max-width: 1440px) {
+
+    header .img-header select,
+    header .img-header input {
+        width: 210px;
+    }
+
+    .sliderBox {
+        height: 500px;
+    }
+
+    .icon .line {
+        margin-top: 7vw;
+    }
+
+    .uniqueImg img {
+        width: 523px;
+        height: 420px;
+    }
+
+    .sliderText {
+        top: -24vw;
+    }
+
+    .sliderText input {
+        position: relative;
+        top: -2vw;
+    }
+
+    .typesOfClient {
+        height: 105vw;
+    }
+
+    .benefitsImg {
+        width: 785px;
+    }
+
+    .places .col-md {
+        margin: 0 40px;
+    }
+
+    .benefitsText {
+        left: -1vw;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    header .menu {
+        padding: 10px 10vw;
+    }
+
+    header .img-header {
+        padding: 0 10vw;
+    }
+
+    header .img-header select,
+    header .img-header input {
+        width: 200px;
+    }
+
+    .sliderBox {
+        height: 350px;
+    }
+
+    .iconBox img {
+        width: 125px;
+        height: 125px;
+    }
+
+    .icon .line {
+        margin-top: 6vw;
+    }
+
+    .iconBox {
+        width: 170px;
+    }
+
+    .numSection .col-md {
+        margin: 0 15px;
+    }
+
+    .numSection .col-md-4 {
+        margin: 0px 19px;
+    }
+
+    .benefitsImg {
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        left: -1vw;
+    }
+
+    .benefitsText {
+        padding: 5vw 0vw 0 0;
+        position: relative;
+        left: 5vw;
+    }
+
+    .benefitsSection {
+        width: 100vw;
+        height: 600px;
+    }
+
+    .sliderText {
+        top: -24vw;
+    }
+
+    .sliderText input {
+        width: 270px;
+        height: 33px;
+        font-size: 12px;
+        position: relative;
+        top: -4vw;
+    }
+
+    .sliderText p {
+        font-size: 17px;
+    }
+
+    .sliderText h1 {
+        font-size: 50px;
+    }
+
+    .uniqueImg {
+        padding: 0 50px;
+    }
+
+    .uniqueImg img {
+        width: 430px;
+        height: 345px;
+    }
+
+    .unique {
+        padding: 15px 0;
+       
+    }
+
+    .places .col-md {
+        width: 280px;
+        margin: 0 24px;
+    }
+
+    .places .col-md .imgTree {
+        margin-top: 4vw;
+    }
+
+    .typesOfClient {
+        height: 111vw;
+    }
+
+    .typesOfClient p {
+        font-size: 24px;
+    }
+
+    .business {
+        margin: 18vw 11vw 0 0;
+    }
+
+    .clinical {
+        margin: 33vw 0 0 12vw;
+    }
+
+    .conveyancing {
+        margin-top: 11vw;
+            padding-left: 1vw;
+    }
+    .personal {
+    padding-left: 1.3vw;
+            margin-top: 6vw;
+}
+
+    footer .menu {
+        padding: 10px 10vw;
+    }
+
+    footer .footerIcon {
+        padding: 20px 10vw;
+    }
+
+    .bText p {
+        font-size: 18px;
+    }
+
+    .benefitsText .lineSmall {
+        width: 425px;
+    }
+
+    .bText img {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (max-width: 1024px)
+{
+    #header .find input, #header .find select, #header .find .select2-container {
+        width: 214px!important;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    #header .find input, #header .find select, #header .find .select2-container {
+        width: 185px!important;
+    }
+    .slick-slide img {
+
+        height: 38vw;
+    }
+    .sliderText h1 {
+        font-size: 5.3vw;
+    }
+    .sliderText p {
+        font-size: 1.6vw;
+    }
+    .sliderText {
+        top: -30vw;
+    }
+    .sliderText input {
+        width: 28vw;
+        height: 29px;
+        font-size: 10px;
+        position: relative;
+        top: -7vw;
+    }
+    h1 {
+        font-size: 4vw;
+    }
+    .pageTwo h1 {
+
+        padding: 15px 8vw 35px;
+    }
+    .pageTwo p {
+        font-size: 3vw;
+    }
+    .iconBox img {
+        width: 11vw;
+        height: 11vw;
+    }
+    .iconBox p {
+        font-size: 1.5vw;
+        padding: 4px 0;
+        font-weight: 600;
+        line-height: 13px;
+    }
+    .iconBox {
+        width: 122px;
+    }
+    .pageTwo input {
+        width: 36vw;
+        height: 39px;
+        font-size: 1.8vw;
+    }
+    .benefitsText .lineSmall {
+        width: 328px;
+        margin: 25px 0;
+    }
+    .bText img {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+    .bText p {
+        font-size: 2vw;
+    }
+    .benefitsText {
+        padding: 7vw 0 0 0;
+        position: relative;
+        width: 400px;
+        left: 4vw;
+    }
+    .benefitsSection {
+
+        height: 475px;
+    }
+    .unique p {
+        font-size: 2vw;
+        padding: 0 3vw 70px;
+    }
+    .uniqueImg {
+        padding: 0 20px;
+    }
+    .uniqueImg img {
+        width: 47vw;
+        height: 36vw;
+    }
+    .typesOfClient p {
+        font-size: 2vw;
+    }
+    .personal {
+
+        margin-top: 6vw;
+    }
+    .typesOfClient {
+        height: fit-content;
+    }
+    .numSection .numbers h1 {
+
+        font-size: 8vw;
+    }
+    .numSection .numbers p {
+        line-height: 15px;
+        font-size: 2vw;
+    }
+    .numSection p {
+        font-family: Montserrat;
+        font-size: 2vw;
+    }
+    .numSection {
+
+        padding: 30px 0;
+    }
+    .numSection input {
+        width: 33vw;
+        height: 5vw;
+        font-size: 1.8vw;
+        margin: -7px 0 0;
+    }
+    .places h1 {
+
+        font-size: 4vw;
+    }
+    .places .col-md .imgOne {
+        width: 10vw;
+        height: 7vw;
+    }
+    .places .col-md .imgTwo {
+        width: 9vw;
+        height: 10vw;
+    }
+    .places .col-md .imgTree {
+        width: 9vw;
+        height: 9vw;
+    }
+    .places .col-md p {
+        font-family: Montserrat;
+        font-size: 2vw;
+        color: #34392f;
+        margin: 0;
+        height: 108px;
+    }
+    .places .col-md {
+        width: 28vw;
+        margin: 0 17px;
+    }
+    .places .col-md h1 {
+
+        font-size: 2.57vw;
+    }
+    .places {
+        padding: 40px 0;
+    }
+    .start h1 {
+        font-size: 4vw;
+    }
+    .start input {
+        width: 33vw;
+        height: 5vw;
+        font-size: 1.8vw;
+    }
+    .start p {
+        font-size: 1.7vw;
+    }
+    .start {
+
+        padding: 47px 0;
+    }
+    .col-sm-4 {
+        width: 25.333333%;
+    }
+    .col-sm-2 {
+        width: 22.666667%;
+    }
+    .social-nav {
+        text-align: right;
+        margin-top: 46px;
+    }
+}
+@media (max-width: 767px) {
+    #header .find input, #header .find select, #header .find .select2-container {
+        width: 100%!important;
+    }
+    #home-banner .find .btn, #header .find .btn {
+        width: 395px!important;
+    }
+    .slick-slide img {
+        width: 100%;
+        height: 44vw;
+    }
+    .slick-prev, .slick-next {
+        width: 4vw;
+        height: 7vw;
+    }
+    .slick-prev {
+        left: 3vw;
+    }
+    .slick-next {
+        left: 93vw!important;
+    }
+    .sliderText h1 {
+        font-size: 6vw;
+    }
+    .sliderText p {
+        font-size: 2.5vw;
+        line-height: 15px;
+    }
+    .sliderText {
+        top: -37vw;
+        left:14vw;
+    }
+    .sliderText input,
+
+    .pageTwo input, .numSection input  {
+        width: 33vw;
+        height: 5vw;
+        font-size: 1.6vw;
+        top: -12vw;
+    }
+    .slick-dots li button {
+
+        width: 1vw;
+        height: 1vw;
+    }
+    .sliderBox {
+        height: 188px;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    .pageTwo h1 {
+
+        padding: 35px 8vw 35px;
+    }
+    .pageTwo p {
+        font-size: 3.5vw;
+    }
+    .iconBox img {
+        width: 15vw;
+        height: 15vw;
+    }
+    .iconBox p {
+        font-size: 1.9vw;
+        font-family: Montserrat;
+        padding: 16px 0;
+        line-height: 13px;
+    }
+    .icon .line {
+        width: 2vw;
+    }
+    .icon .line {
+        margin-top: 8vw;
+    }
+    .icon {
+
+        padding: 40px 0 6px;
+    }
+    .lineBig {
+        width: 100vw;
+        height: 2px;
+        margin: 30px 0;
+    }
+    .benefitsSection {
+        width: 100vw;
+        height: fit-content;
+    }
+    .benefitsImg {
+        width: 47%;
+        height: 52vw;
+    }
+    .benefitsText {
+        padding: 5vw 0 0 0;
+        position: relative;
+        left: 2vw;
+        width: 50%;
+    }
+    .bText img {
+        width: 5vw;
+        height: 5vw;
+    }
+    .bText p {
+        font-size: 2vw;
+        padding: 0 0 0 10px;
+    }
+    .benefitsText .lineSmall {
+
+        margin: 10px 0;
+        width: 89%;
+    }
+    .unique p {
+        font-size: 2.5vw;
+        padding: 0 5vw 38px;
+        margin: 29px 0 0;
+        font-family: Montserrat;
+        color: #34392f;
+    }
+    .uniqueImg img {
+        width: 100%;
+        height: auto;
+    }
+    .uniqueImg {
+        padding: 0 35px;
+    }
+    .typesOfClient {
+        height: fit-content;
+    }
+    .typesOfClient h1 {
+        padding: 0 10px 50px;
+    }
+    .typesOfClient p {
+        font-size: 2.5vw;
+    }
+    .personal {
+        padding-left: 1.3vw;
+        margin-top: 8vw;
+    }
+    .business {
+        margin: 20vw 11vw 0 0;
+    }
+    .clinical {
+        margin: 35vw 0 0 12vw;
+    }
+    .numSection .numbers h1 {
+        font-family: Montserrat;
+        font-size: 9vw;
+    }
+    .numSection .numbers p {
+
+        font-size: 2.5vw;
+    }
+    .numSection .col-md-4 {
+        margin: 0 -4px;
+    }
+    .numSection {
+
+        padding: 18px 0;
+    }
+    .numSection p {
+        font-family: Montserrat;
+        font-size: 2.5vw;
+    }
+    .numSection input {
+        margin: -10px 0 0;
+    }
+    .places h1 {
+        color: #00af4b;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 6vw;
+        padding: 10px 0;
+    }
+    .places .col-md p {
+        font-size: 2.5vw;
+    }
+    .places .col-md {
+        width: 30%;
+        margin: 0 10px;
+    }
+    .places {
+        padding: 40px 0 0px;
+    }
+    .start input {
+        width: 33vw;
+        height: 5vw;
+        font-size: 1.6vw;
+    }
+    .start {
+
+        padding: 30px 0;
+    }
+}
+@media all and (max-width:425px)
+{
+    .places .col-md .imgOne {
+        width: 15vw;
+        height: 12vw;
+    }
+    .places .col-md .imgTwo {
+        width: 13vw;
+        height: 14vw;
+    }
+    .places .col-md .imgTree {
+        width: 14vw;
+        height: 14vw;
+    }
+    .places .col-md h1 {
+        font-size: 3.57vw;
+        padding: 13px 0;
+    }
+    .placesImg {
+        height: 90px;
+    }
+    .start p {
+        font-size: 3.24vw;
+    }
+    .start h1 {
+        font-size: 7vw;
+    }
+    .slick-prev {
+        left: 10px!important;
+    }
+    .slick-next {
+        left: 89vw!important;
+    }
+    .benefitsText {
+        padding: 0vw 0 0!important;
+    }
+}

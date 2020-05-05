@@ -1,0 +1,740 @@
+@media (max-width: 767px) {
+	.container {
+		padding:0 15px;
+	}
+	#header {
+		padding:10px 0
+	}
+	#logo {
+		margin:0 auto 10px;
+		width:60%;
+	}
+	#main-nav {
+		margin-bottom:10px;
+		text-align:center;
+	}
+	#main-nav li {
+		float:none;
+		display:inline-block;
+		margin:0 10px;
+		line-height:20px;
+	}
+	#main-nav li a {
+		font-size:12px;
+	}
+	#user-nav {
+		float:none;
+		text-align:center;
+	}
+	#user-nav li {
+		float:none;
+		display:inline-block;
+		line-height:25px;
+	}
+	#user-nav li a {
+		font-size:12px;
+		padding:0 15px;
+	}
+	
+	#home-banner {
+		height:400px;
+		padding-top:30px;
+	}
+	#home-banner .find {
+		padding:0;
+	}
+	#home-banner .find h2 {
+		font-size:20px;
+		line-height:28px;
+		margin-bottom:10px;
+	}
+	#home-banner .find p {
+		font-size:16px;
+		line-height:22px;
+		margin-bottom:12px;
+	}
+	
+	#home-banner .find input,
+	#home-banner .find .select2-container,
+	#home-banner .find select {
+		width:100%;
+	}
+	#home-banner .find .btn,
+	#header .find .btn {
+		display:block;
+		width:100%;
+	}
+	#header .find input, 
+	#header .find select, 
+	#header .find .select2-container {
+		width:100%;
+	}
+	#header .find input {
+		border-top:solid 1px #e2e2e2;
+		border-left:none;
+	}
+	#search-bae label {
+		display:block;
+		margin-bottom:5px;
+	}
+	#search-bae input {
+		width:100%;
+		margin:0 0 10px;
+	}
+	#search-bae .btn {
+		display:block;
+		width:100%;
+	}
+	.home-sections {
+		margin:0 -2.2%;
+	}
+	.home-sections .btn {
+	  width: 43.66666667%;
+	  margin:0 3% 20px;
+	  height:152px;
+	  padding-top:20px
+	}
+	.home-sections .btn span {
+		font-size:16px;
+	}
+	.tabs .tabs-nav li a {
+		font-size:14px;
+		padding-bottom:15px;
+	}
+	.reviews-list .review .user {
+		text-align:center;
+		margin-bottom:15px;
+	}
+	.reviews-list .review .user img {
+		margin:0 auto 15px;
+		width:60%;
+	}
+	.sponsored {
+		display:none;
+	}
+	.quiz footer, 
+	.contest footer {
+		border-top:none;
+		border-bottom:1px solid #e4e5e6;
+		padding-bottom:20px;
+		margin-bottom:15px;
+	}
+	.quiz footer {
+		padding-right:0;
+		margin-right:0;
+	}
+	.contest-slider {
+		padding:0 40px;
+	}
+	.contest-slider,
+	.contest-slider .slider,
+	.contest-slider .slide {
+		height:auto;
+	}
+	
+	.contest-slider img {
+		float:none;
+		margin:0 auto 20px;
+	}
+	.contest-slider .bx-controls-direction a.bx-next {
+		right:0;
+	}
+	#help form footer p,
+	#help form footer .btn {
+		float:none;
+		text-align:center;
+	}
+	#help form footer p {
+		margin-bottom:15px;
+	}
+	#help form footer .btn {
+		width:100%;
+		display:block;
+	}
+	.help-bottom {
+		text-align:center;
+	}
+	.help-bottom .why {
+		text-align:left;
+		display:inline-block;
+		margin-bottom:20px;
+	}
+	.help-bottom .how {
+		text-align:left;
+	}
+	.help-bottom .how li {
+		width:auto;
+		margin-bottom:10px;
+		min-height:40px;
+	}
+	.footer-links {
+		font-size:12px;
+		padding:20px 10px;
+		text-align:center;
+	}
+	.footer-copy,
+	.social-nav {
+		text-align: center;
+	}
+	.footer-logo {
+		margin:0 auto 20px;
+	}
+	
+	.profile-top .map img {
+		width:100%;
+	}
+	
+	.profile-top .contact {
+		margin-bottom:20px;
+	}
+	.profile-top .profile-buttons {
+		margin:15px 0;
+	}
+	.profile-top .profile-buttons .btn {
+		display:block;
+		float:none;
+		margin:0 0 8px;
+		width:auto;
+	}
+	.profile-top .rating {
+		margin:0;
+	}
+	.profile-top .gallery li{
+		width:50%;
+		border:solid 3px #f5f5f5;
+		margin:0;
+	}
+	#content {
+		padding-top:25px;
+	}
+	.review-summary .rating.large {
+		margin-bottom:15px;
+		padding:30px 0 20px;
+	}
+	.review-summary .rating.large > strong {
+		display:block;
+	}
+	.add-rating {
+		position:relative;
+		padding:10px 10px 10px 70px
+	}
+	.add-rating .user-icon {
+		position:absolute;
+		top:10px;
+		left:10px;
+		float:none;
+		margin:0;
+	}
+	.add-rating input {
+		float:none;
+		width:100%;
+		margin:0;
+	}
+	.select-rating span {
+		margin-left:12px;
+	}
+	.sort {
+		padding:0 10px;
+	}
+	.sort span {
+		padding:0 0 15px;
+		margin-right:5px;
+	}
+	.sort a {
+		padding:0 8px 15px;
+		margin:0;
+	}
+	.soliciters-slider {
+		padding:0 30px;
+		margin-bottom:30px;
+	}
+	
+	.full-map {
+		height:350px;
+	}
+	.basic-profile-sidebar {
+		padding:0;
+	}
+	.basic-profile-sidebar .locations {
+		margin-bottom:30px;
+	}
+	.profile-about {
+		padding:20px 0;
+	}
+	.profile-about hr {
+		margin:20px 0;
+	}
+	.profile-top h1 {
+		margin-top:12px;
+	}
+	.top-nav {
+		padding:15px 0;
+		display:none;
+	}
+	#main-nav,
+	#user-nav {
+		float:none;
+		margin:0;
+	}
+	#main-nav li,
+	#user-nav li {
+		display:block;
+		float:none;
+		margin:0;
+		padding:0;
+	}
+	
+	#main-nav li a,
+	#user-nav li a,
+	#top-bar #user-nav li a {
+		margin:0;
+		padding:0;
+		text-align:left;
+		line-height:26px;
+	}
+	.toggle-nav {
+		display:block;
+		font-size:30px;
+		position:Absolute;
+		top:-8px;
+		left:10px;
+	}
+	#header #user-nav li a.signin {
+		border:none;
+	}
+	
+	.results-list .result.highlighted,
+	.results-list .result {
+		padding:15px;
+	}
+	.results-list .result.highlighted .tn {
+		position:static;
+		width:100%;
+		margin:12px auto 20px;
+		display:block;
+	}
+	.results-list .result .add-review {
+		float:none;
+	}
+	.results-list .result.highlighted .accreditations span {
+		float:none;
+		margin:0 0 10px;
+		text-align:center;
+	}
+	.results-list .result.highlighted .accreditations span.accreditations-no {
+		text-align:left;
+	}
+	
+	.write-review-banner {
+		height:280px;
+		padding-top:50px;
+	}
+	.write-review-banner h4 {
+		margin-bottom:15px;
+	}
+	.write-review-banner h3 {
+		font-size:18px;
+	}
+	.write-review-banner input,
+	.write-review-banner .btn {
+		width:100%;
+		display:block;
+	}
+	.write-review-banner input {
+		margin-bottom:14px;
+	}
+	.how-to {
+		padding:20px 0;
+	}
+	.how-to h2 {
+		font-size:24px;
+		line-height:30px;
+	}
+	.genera-article {
+		padding-right:0;
+	}
+	.how-to img {
+		width:100%;
+	}
+	
+	.top-slider {
+		padding:0 30px;
+	}
+	.top-slider p {
+		margin-right:0;
+	}
+	.top-slider .bx-controls-direction a.bx-prev {
+		left:0px;
+	}
+	.top-slider .bx-controls-direction a.bx-next {
+		right:0px;
+	}
+	.top-slider .bx-controls-direction a.bx-next:before,
+	.top-slider .bx-controls-direction a.bx-prev:before {
+		font-size:40px;
+		margin-top:-140px;
+	}
+	.top-slider .rating {
+		margin-top:30px;
+	}
+	.top-slider img {
+		margin-bottom:10px;
+	}
+	.top-slider header {
+		text-align:center;
+	}
+	.top-slider header .no {
+		float:none;
+		margin:0 auto 10px;
+	}
+	.page-title {
+		padding:40px 0;
+	}
+	
+	.reviewing em {
+		text-align:center;
+		display:block;
+		margin-bottom:15px;
+	}
+	.reviewing img {
+		width:80%;
+		float:none;
+		margin:0 auto 20px;
+	}
+	.reviewing {
+		text-align:Center;
+	}
+	.review-type label {
+		float:none;
+		width:auto;
+		margin:0 0 12px;
+	}
+	.write-review .optional ul li  {
+		margin-bottom:10px;
+	}
+	.write-review .optional ul li span.left {
+		width:120px;
+	}
+	.write-review .optional .select-rating > label:before {
+		font-size:18px;
+	}
+	.write-review .optional .select-rating > label {
+		margin:0;
+	}
+	.write-review .optional ul li .select-rating {
+		margin-right:0;
+		float:left;
+	}
+	.write-review .optional ul li span.right {
+		float:right;
+	}
+	.write-review .btn {
+		width:100%;
+	}
+	
+	.user-dashboard .dashboard-nav {
+		width:auto;
+		float:none;
+	}
+	.user-dashboard .dashboard-nav li a {
+		font-size:14px;
+	}
+	.user-dashboard .dashboard-content {
+		width:auto;
+		float:none;
+		padding:0;
+	}
+	.user-dashboard .dashboard-content:before  {
+		display:none;
+	}
+	.user-dashboard .notification {
+		margin-bottom:20px;
+	}
+	.user-dashboard .user-info {
+		text-align:center;
+	}
+	.user-dashboard .user-info img {
+		width:180px;
+		height:180px;
+		border-radius:95px;
+		float:none;
+		margin:0 auto 20px;
+		display:block;
+	}
+	.user-dashboard .user-info strong {
+		margin-top:10px;
+	}
+	.user-dashboard .user-info nav {
+		text-align:center;
+		margin-top:10px;
+	}
+	.user-dashboard .dashboard-sections {
+		margin-left:0;
+	}
+	.user-dashboard .dashboard-sections a {
+		width:100%;
+		height:auto;
+		margin:0 0 20px 0;
+		padding:12px 15px 12px 95px;
+	}
+	.user-dashboard .dashboard-sections a .fa {
+		width:80px;
+	}
+	.toggle-subnav {
+		display:block;
+		font-size:30px;
+	}
+	.sub-nav {
+		padding:10px 0;
+	}
+	.sub-nav nav {
+		display:none;
+	}
+	.sub-nav nav a {
+		display:block;
+		float:none;
+		padding:0;
+		line-height:35px;
+		margin:0;
+		height:auto;
+	}
+	.sub-nav nav a.right {
+		float:none;
+	}
+	.admin .filter .btn,
+	.admin .filter select,
+	.admin .filter .select2-container {
+		width:100%;
+		display:block;
+		margin:0 0 10px;
+	}
+	.admin .filter .btn {
+		text-align:center;
+	}
+	.admin .dashboard-section {
+		height:auto;
+	}
+	.admin .dashboard-section ul{
+		margin-bottom:-1px
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#header {
+		padding:12px 0
+	}
+	#logo {
+		margin:0 auto 10px;
+	}
+	#home-banner {
+		height:450px;
+		padding-top:100px;
+	}
+	#home-banner .find input,
+	#home-banner .find .select2-container,
+	#home-banner .find select {
+		width:255px;
+	}
+	#search-bae label {
+		display:block;
+		margin-bottom:10px;
+	}
+	.reviews-list .review .user span {
+		font-size:12px;
+	}
+	.help-bottom  {
+		text-align:center
+	}
+	.help-bottom .why {
+		text-align:left;
+		display:inline-block;
+		margin-bottom:20px;
+	}
+	.help-bottom .how {
+		text-align:left;
+	}
+	.footer-links {
+		font-size:12px;
+		padding:30px;
+	}
+	
+	#header .find input, 
+	#header .find select, 
+	#header .find .select2-container {
+		width:185px;
+	}
+	.profile-top .profile-buttons {
+		margin:20px 0;
+	}
+	.profile-top .profile-buttons .btn {
+		width:202px;
+	}
+	.profile-top .rating {
+		margin-bottom:5px;
+	}
+	.profile-top .gallery {
+		margin-left:-8px;
+	}
+	.profile-top .gallery li {
+		width:234px;
+		margin-bottom:8px;
+		margin-left:8px;
+	}
+	.add-rating .user-icon {
+		margin-right:18px;
+	}
+	.add-rating input {
+		margin-right:15px;
+		width:381px;
+	}
+	.select-rating span {
+		margin-left:15px
+	}
+	
+	.soliciters-slider {
+		padding:0 60px;
+		margin-bottom:30px;
+	}
+	
+	.sponsored {
+		float:left;
+		clear:none;
+		margin:0 15px 15px;
+	}
+	.basic-profile-sidebar {
+		padding:0;
+	}
+	.review-summary .rating.large > strong {
+		display:block;
+	}
+	.how-to {
+		padding:30px 0;
+	}
+	.how-to img {
+		width:100%;
+	}
+	
+	.top-slider img {
+		margin-bottom:8px;
+	}
+	.top-slider .rating {
+		margin-top:30px;
+	}
+	.user-dashboard {
+		background-position:-1451px 0;
+	}
+	.user-dashboard .dashboard-nav {
+		width:180px;
+	}
+	.user-dashboard .dashboard-nav li a {
+		font-size:14px;
+	}
+	.user-dashboard .dashboard-content {
+		width:540px;
+		padding-left:30px;
+	}
+	.user-dashboard .user-info nav {
+		margin-top:10px;
+	}
+	.user-dashboard .user-info nav  a {
+		margin:0 0 10px;
+	}
+	.user-dashboard .dashboard-sections {
+		margin-left:0;
+	}
+	.user-dashboard .dashboard-sections a {
+		width:100%;
+		height:130px;
+		margin:0 0 20px 0;
+	}
+	.user-dashboard .dashboard-sections a .fa {
+		line-height:130px;
+	}
+	
+	.sub-nav a {
+		padding:10px 0;
+		line-height:15px;
+		height:35px;
+	}
+	.admin .dashboard-section {
+		height:auto;
+	}
+	.admin .dashboard-section ul{
+		margin-bottom:-1px
+	}
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+	#main-nav {
+		margin-left: 61px;
+    	margin-right: -25px;
+	}
+	#main-nav li {
+		margin-right:20px;
+	}
+	#main-nav li a {
+		font-size:15px;
+	}
+	#user-nav li a {
+		font-size:15px;
+		padding:0 15px;
+	}
+	.home-sections .btn {
+		width:173px;
+		height:145px;
+		padding-top:20px;
+	}
+	.reviews-list .review .user span {
+		font-size:12px;
+	}
+	.help-bottom .how li {
+		width:205px;
+	}
+	#header .find input, #header .find select, 
+	#header .find .select2-container {
+		width:214px
+	}
+	.profile-top .map {
+		width:100%;
+		padding-right:20px;
+	}
+	.profile-top .map img {
+		width:100%;
+	}
+	.profile-top .gallery li {
+		width:138px;
+	}
+	.add-rating .user-icon {
+		margin-right:18px;
+	}
+	.add-rating input {
+		margin-right:15px;
+		width:305px;
+	}
+	.select-rating span {
+		margin-left:15px
+	}
+	.review-type label {
+		width:173px;
+	}
+	.user-dashboard {
+		background-position:-1386px 0;
+	}
+	.user-dashboard .dashboard-content {
+		width:720px
+	}
+	.user-dashboard .dashboard-sections {
+		margin-left:-20px;
+	}
+	.user-dashboard .dashboard-sections a {
+		width:324px;
+		height:169px;
+		margin:0 0 20px 20px;
+	}
+	.user-dashboard .dashboard-sections a .fa {
+		line-height:169px;
+	}
+	.sub-nav a {
+		margin-right:20px;
+	}
+	
+}

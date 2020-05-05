@@ -1,0 +1,209 @@
+.sallesSlider .slick-list {
+    padding: 0px 80px 0 130px !important;
+}
+
+.customer-comments-section .slider .slick-arrow {
+    width: 25px;
+    height: 73px;
+    padding: 0;
+    top: 105px;
+}
+
+.sallesSlider .openBox {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 0.9vw;
+    padding: 1vw 0 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .sallesSlider .slick-prev:before,
+    .sallesSlider .slick-next:before {
+        font-size: 40px;
+    }
+
+    .sallesSlider .slider .slick-arrow {
+        top: 137px;
+    }
+
+    .sallesSlider .slick-list {
+        padding: 0px 110px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #intro .text-wrapper {
+        padding: 0 10vw 2.6vw;
+    }
+
+    .navbar {
+        height: 67px !important;
+        padding: 3vw 1.8vw 2vw 2.5vw;
+    }
+
+    .top-bar .logo-rs {
+        top: 0 !important;
+    }
+
+    #intro .introtext {
+        font-size: 2.25vw !important;
+        margin: 0 0 5vw !important;
+    }
+
+    .request-demonstration-section #firstname,
+    .request-demonstration-section #surname,
+    .request-demonstration-section #phonenumber,
+    .request-demonstration-section #email {
+        background-image: none;
+    }
+}
+
+
+
+
+@media all and (max-width:425px) {
+
+    .footer .content {
+        width: 100% !important;
+    }
+
+    html,
+    body {
+        min-width: 100vw !important;
+    }
+
+    .customer-comments-section .slider {
+        width: 100%;
+        margin: 8vw auto 0;
+    }
+
+    .footer {
+        padding: 17px;
+    }
+
+    .navbar-right {
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .top-bar .navbar-nav li + li,
+    .btn-sm {
+        margin: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 90px !important;
+        padding: 3vw 1.8vw 4vw 2.5vw;
+    }
+
+    .nav-links {
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro .content {
+        padding: 8.1vw 0 0;
+    }
+
+    #case p {
+        width: 100%;
+    }
+
+    .top-bar .nav-links {
+        padding: 0vw 0 0 18vw;
+    }
+
+    #intro .text-wrapper {
+        padding: 0 5vw 2.6vw;
+    }
+
+    #intro .join-now {
+        width: 84%;
+    }
+
+    #intro .download-brochure {
+        width: 63.7vw !important;
+    }
+
+    #intro .download-brochure strong,
+    .download-brochure h4 {
+        font-size: 16px;
+    }
+
+    .sallesSlider .slick-list {
+        padding: 0px 50px !important;
+    }
+
+    .sallesSlider {
+        width: 100% !important;
+        margin: 8vw auto 0;
+    }
+
+    .sallesSlider .slick-prev {
+        left: 0px;
+    }
+
+    .sallesSlider .slick-next {
+        right: 25px;
+    }
+
+    .benefits-section .benefits-block,
+    .google-rating-section .browser img,
+    .google-facebook-section img.scheme,
+    .tailored-review-section img.scheme,
+    .client-feedback-section .browser img,
+    .individual-profiles-section .browser img,
+    .ranking-pages-section .browser img,
+    .professional-profile-section .browser img,
+    .access-widgets-section .browser img,
+    .statistic-section .browser img,
+    .collect-reviews-section .browser img {
+        width: 100%;
+    }
+
+    .benefit h5 {
+        color: #181818;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .benefits-section .devices {
+        display: flex;
+    }
+
+    .firms.slider .slick-list {
+        width: 85%;
+    }
+
+    .slick-arrow.prev {
+        left: 0px;
+    }
+
+    .slick-arrow.next {
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .top-bar .logo-rs {
+        /*        width: 74% !important;*/
+        background-size: contain !important;
+        background-position: center !important;
+    }
+
+    .top-bar .navbar-header {
+        width: 40%;
+    }
+
+    .top-bar .nav-links {
+        padding: 0vw 0 0 10vw;
+    }
+}

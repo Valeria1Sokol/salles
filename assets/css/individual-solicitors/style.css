@@ -1,0 +1,1669 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../assets/fonts/OpenSans-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../assets/fonts/OpenSans-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("../assets/fonts/OpenSans-Italic.ttf") format("ttf");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../assets/fonts/OpenSans-SemiBold.ttf") format("ttf");
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3, h1 {
+  color: #4a524e;
+}
+
+p {
+  color: #4a524e;
+  font-size: 14px !important;
+}
+
+svg#donut-chart {
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+a, button {
+  transition: background-color 0.2s linear;
+}
+
+.yellow {
+  color: #ffd500;
+}
+
+* {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+header {
+  background-color: #009041;
+}
+header .img-header {
+  padding: 20px 100px;
+  background-color: #01af55;
+}
+header .img-header img {
+  height: 50px;
+}
+header nav {
+  padding: 10px 100px;
+  font-size: 14px;
+  font-family: OpenSans-Regular, sans-serif;
+}
+header nav a {
+  color: #ffffff;
+  margin-right: 20px;
+}
+header nav a:hover {
+  color: #ffffff;
+  text-underline-color: white;
+}
+header nav a:last-child {
+  margin-right: 0;
+}
+
+main {
+  padding: 50px 0px;
+}
+main section#profile div.left div.photo figure {
+  border-radius: 5px;
+  overflow: hidden;
+  max-height: 400px;
+  margin: 0;
+}
+main section#profile div.left div.photo figure img {
+  width: 100%;
+}
+main section#profile div.left div.photo h4 {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: OpenSans-Bold, sans-serif;
+}
+main section#profile div.left div.photo a {
+  width: fit-content;
+  border-radius: 5px;
+  background-color: #0077b5;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#profile div.left div.photo a span:first-child {
+  height: 100%;
+  padding: 10px;
+  color: white;
+  border-right: 1px solid #005d8d;
+}
+main section#profile div.left div.photo a span:first-child i {
+  font-size: 24px;
+}
+main section#profile div.left div.photo a span:last-child {
+  height: 100%;
+  padding: 10px;
+  color: #ffffff;
+  font-family: OpenSans-Bold, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+main section#profile div.left div.photo a:hover {
+  background-color: #0069a4;
+  cursor: pointer;
+}
+main section#profile div.left div.text h2 {
+  font-size: 36px;
+  line-height: 38px;
+  color: #4a524e;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#profile div.left div.text p {
+  color: #4a524e;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OpenSans-Regular, sans-serif;
+}
+main section#profile div.left div.text .stat {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 13px;
+  border-left: 3px solid #00a951;
+}
+main section#profile div.left div.text .stat p {
+  color: #4a524e;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OpenSans-Regular, sans-serif;
+}
+main section#profile div.left div.text .stat p strong {
+  font-family: OpenSans-Regular, sans-serif;
+  color: #00a951;
+}
+main section#profile div.left div.text .info p {
+  font-size: 14px;
+  color: #000;
+  line-height: 20px;
+}
+main section#profile div.left div.text .info p:first-child i {
+  margin-left: 2.5px;
+}
+main section#profile div.left div.text .info p i {
+  width: 18px;
+  margin-right: 5px;
+  color: #00a951;
+}
+main section#profile div.left div.text .info h3 {
+  font-size: 22px;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  color: #4a524e;
+  text-transform: uppercase;
+}
+main section#profile div.left div.text .info p:last-child {
+  color: #4d565e;
+  font-size: 14px;
+  line-height: 20px;
+}
+main section#profile div.right.no-premium h3 {
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  color: #4d565e;
+}
+main section#profile div.right.no-premium .profile {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+main section#profile div.right.no-premium .profile .heading figure {
+  width: 20%;
+  overflow: hidden;
+}
+main section#profile div.right.no-premium .profile .heading figure img {
+  width: 100%;
+}
+main section#profile div.right.no-premium .profile .heading .info {
+  padding-left: 15px;
+}
+main section#profile div.right.no-premium .profile .heading .info h3 {
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+main section#profile div.right.no-premium .profile .heading .info p:nth-child(2) {
+  color: #696a6c;
+  font-size: 14px;
+  font-family: "OpenSans-Light", sans-serif;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+main section#profile div.right.no-premium .profile .heading .info p {
+  font-family: "OpenSans-Light", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #696a6c;
+}
+main section#profile div.right.no-premium .profile .heading .info p strong {
+  color: #000;
+}
+main section#profile div.right.no-premium .profile .content p {
+  font-family: "OpenSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #696a6c;
+}
+a.view-solicitor-profile-btn {
+  width: 100%;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #febc2f;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+}
+a.view-solicitor-profile-btn:hover {
+  background-color: #e7ab2b;
+}
+a.sponsored-solicitor-box {
+  text-decoration: none;
+}
+main section#profile div.right ul {
+  margin: 20px 0 0 auto;
+  padding: 0 0 0 35%;
+  font-family: OpenSans-Regular, sans-serif;
+  color: #4d565e;
+  list-style-type: none;
+  font-size: 14px;
+}
+main section#profile div.right ul li {
+  position: relative;
+}
+main section#profile div.right ul li:before {
+  top: -34px;
+  font-size: 60px;
+  left: -25px;
+  position: absolute;
+  content: "•";
+}
+main section#profile div.right ul li:first-child:before {
+  color: #fb7514;
+}
+main section#profile div.right ul li:nth-child(2):before {
+  color: #0075b3;
+}
+main section#profile div.right ul li:nth-child(3):before {
+  color: #00aca8;
+}
+main section#profile div.right ul li:nth-child(4):before {
+  color: #ffb70d;
+}
+main section#profile div.right ul li:nth-child(5):before {
+  color: #ab0046;
+}
+main section#profile div.right ul li:nth-child(6):before {
+  color: #00ab55;
+}
+main section#profile div.right .fees {
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.5);
+}
+main section#profile div.right .fees h3 {
+  font-size: 22px;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  color: #4d565e;
+  text-transform: uppercase;
+}
+main section#profile div.right .fees p {
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 14px;
+  color: #4d565e;
+}
+main section#profile .contact {
+  margin-top: 30px;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #212d36;
+  border-radius: 5px;
+  justify-content: stretch;
+  flex-grow: 1;
+}
+main section#profile .contact h2 {
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+main section#profile .contact a {
+  flex-grow: 1;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #01a34f;
+  color: #ffffff;
+}
+main section#profile .contact a i {
+  margin-right: 5px;
+}
+main section#profile .contact a:nth-child(2) {
+  background-color: #fdbc35 !important;
+}
+main section#profile .contact a:nth-child(2):hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #d7a02d !important;
+}
+main section#profile .contact a:last-child {
+  margin-right: 0;
+}
+main section#profile .contact a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #00cc61;
+}
+main section#sponsored {
+  padding: 40px 0;
+}
+main section#sponsored h2 {
+  text-transform: uppercase;
+  display: block;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  color: #81888d;
+  margin-bottom: 20px;
+}
+main section#sponsored .profile {
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+main section#sponsored .profile .heading figure {
+  width: 20%;
+  overflow: hidden;
+}
+main section#sponsored .profile .heading figure img {
+  width: 100%;
+}
+main section#sponsored .profile .heading .info {
+  padding-left: 15px;
+}
+main section#sponsored .profile .heading .info h3 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+main section#sponsored .profile .heading .info p:nth-child(2) {
+  color: #696a6c;
+  font-size: 14px;
+  font-family: "OpenSans-Light", sans-serif;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+main section#sponsored .profile .heading .info p {
+  font-family: "OpenSans-Light", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #696a6c;
+}
+main section#sponsored .profile .heading .info p strong {
+  color: #000;
+}
+main section#sponsored .profile .content p {
+  font-family: "OpenSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #696a6c;
+}
+main section#sponsored .profile .content a {
+  width: 100%;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #febc2f;
+  border-radius: 5px;
+  text-align: center;
+}
+main section#sponsored .profile .content a:hover {
+  background-color: #e7ab2b;
+}
+
+section#awards {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 120px;
+  background-color: #f8f8f9;
+}
+section#awards h2 {
+  font-size: 40px;
+  font-family: OpenSans-Bold, sans-serif;
+  margin-bottom: 20px;
+}
+section#awards .awards .award {
+  flex-grow: 1;
+  margin-right: 5%;
+}
+section#awards .awards .award:last-child {
+  margin-right: 0;
+}
+section#awards .awards .award img {
+  margin: 0 auto 15px;
+  height: 50%;
+}
+section#awards .awards .award p {
+  text-align: center;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+}
+
+main section#rating .rating-box {
+  border: 1px solid #e4e5e6;
+  padding: 25px 30px;
+}
+main section#rating .rating-box h2 {
+  text-align: center;
+  font-family: OpenSans-Light, sans-serif;
+  font-weight: lighter;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+main section#rating .rating-box h2 small {
+  margin-left: -10px;
+  font-size: 20px;
+}
+main section#rating .experience {
+  padding: 0 40px;
+}
+main section#rating .experience .heading {
+  width: 100%;
+  margin-bottom: 20px;
+}
+main section#rating .experience .heading h3 {
+  width: 200px;
+  text-align: start;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+main section#rating .experience .experience-one {
+  width: 100%;
+  margin-bottom: 5px;
+}
+main section#rating .experience .experience-one:last-child {
+  margin-bottom: 0;
+}
+main section#rating .experience .experience-one h3 {
+  width: 200px;
+  text-align: start;
+  font-family: OpenSans-Light, sans-serif;
+  font-weight: normal;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+main section#rating .summary {
+  padding: 0 40px;
+}
+main section#rating .summary h3 {
+  text-align: start;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+main section#rating .summary .summary-one {
+  margin-bottom: 5px;
+}
+main section#rating .summary .summary-one:last-child {
+  margin-bottom: 0;
+}
+main section#rating .summary .summary-one h3 {
+  width: 125px;
+  text-align: start;
+  font-family: OpenSans-Light, sans-serif;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+main section#rating .summary .summary-one .counter .fill {
+  margin-right: 10px;
+  height: 20px;
+  width: 200px;
+}
+main section#rating .summary .summary-one .counter .fill .inner {
+  height: 100%;
+  background-color: #fdbe3f;
+}
+main section#write-comment {
+  margin-top: 50px;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+}
+main section#write-comment img {
+  height: 50px;
+  margin-right: 50px;
+}
+main section#write-comment .input-wrap {
+  flex-grow: 1;
+  position: relative;
+  height: 50px;
+  width: 60%;
+}
+main section#write-comment .input-wrap .tick {
+  position: absolute;
+  height: 20px;
+  left: -10px;
+  top: calc(50% - 10px);
+  width: 20px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+  border-bottom: 1px solid #ced0d1;
+  border-left: 1px solid #ced0d1;
+}
+main section#write-comment .input-wrap input {
+  outline: none;
+  height: 100%;
+  border: 1px solid #ced0d1;
+  padding: 5px 20px;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+  font-family: OpenSans-Regular, sans-serif;
+}
+main section#write-comment .stars {
+  color: #d5d5d5;
+  margin-bottom: 0;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+main section#write-comment .stars i {
+  margin-bottom: 0;
+  margin-right: 2px;
+}
+main section#write-comment .stars i:first-child {
+  margin-right: 0;
+}
+main section#write-comment .stars i:hover {
+  cursor: pointer;
+  color: #ffd500 !important;
+}
+main section#write-comment .stars i:hover ~ i {
+  color: #ffd500 !important;
+}
+main section#write-comment h3 {
+  padding-right: 20px;
+  margin-bottom: 0;
+  color: #909295;
+  font-size: 15px;
+  font-family: "OpenSans-Regular", sans-serif;
+}
+main section#sort-by {
+  height: 64px;
+  padding: 0 20px;
+  border-bottom: 1px solid #e4e8e7;
+}
+main section#sort-by h3 {
+  font-family: OpenSans-Light, sans-serif;
+  font-weight: lighter;
+  color: #909295;
+  border-bottom: 2px solid transparent;
+  font-size: 18px;
+  line-height: 20px;
+  display: inline;
+  margin: 0;
+  padding: 22px 15px;
+}
+main section#sort-by h3:first-child {
+  padding-left: 0;
+}
+main section#sort-by h3:nth-child(2) {
+  font-weight: bold;
+  color: #000;
+  margin: 0 15px;
+  border-bottom: 2px solid #00af54;
+}
+main section.comments div.comment {
+  width: 100% !important;
+  border-bottom: 1px solid #e4e8e7;
+  padding: 25px 0;
+}
+main section.comments div.comment .user .rounded-circle {
+  overflow: hidden;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.comments div.comment .user .rounded-circle img {
+  width: 100px;
+  height: auto;
+}
+main section.comments div.comment .user h2 {
+  font-size: 22px;
+  font-family: OpenSans-Light, sans-serif;
+  font-weight: lighter;
+  color: #000;
+  margin: 10px 0 10px;
+}
+main section.comments div.comment .user h3 {
+  margin: 5px 0;
+  color: #909295;
+  font-size: 16px;
+  font-family: OpenSans-Light, sans-serif;
+  font-weight: lighter;
+}
+main section.comments div.comment .user h3:nth-child(3) {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+main section.comments div.comment .user h3.up:hover {
+  cursor: pointer;
+  color: #00a951;
+}
+main section.comments div.comment .user h3.report:hover {
+  cursor: pointer;
+  color: red;
+}
+main section.comments div.comment .user a:hover {
+  text-decoration: none;
+}
+main section.comments div.comment .user h3 i {
+  margin-right: 10px;
+}
+main section.comments div.comment .user h3.verify {
+  color: #00a951;
+}
+main section.comments div.comment .comment-text .comment-heading-deleted h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  color: #4a524e;
+  margin-bottom: 0;
+}
+main section.comments div.comment .comment-text .comment-heading-deleted h2 i {
+  margin-right: 15px;
+}
+main section.comments div.comment .comment-text .comment-heading-deleted h3 {
+  font-family: "OpenSans-Light", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4a524e;
+  margin-bottom: 0;
+}
+main section.comments div.comment .comment-text .comment-content-deleted p {
+  margin-top: 15px;
+  color: #4a524e;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+main section.comments div.comment .comment-text .comment-content-deleted p:nth-child(2) strong:nth-child(2) {
+  color: #00a951;
+}
+main section.comments div.comment .comment-text .comment-content-deleted p:last-child {
+  font-size: 14px;
+  line-height: 20px;
+  color: #a4a6a9 !important;
+  font-family: "OpenSans-Regular", sans-serif;
+}
+main section.comments div.comment .comment-text .comment-content-deleted p button {
+  font-family: "OpenSans-Regular", sans-serif;
+  padding: 5px 17px;
+  line-height: 16px;
+  background-color: #00a951;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 10px;
+  border-radius: 2.5px;
+}
+main section.comments div.comment .comment-text .comment-content-deleted p button:hover {
+  background-color: #00cc61;
+}
+main section.comments div.comment .comment-text .comment-content h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  color: #4a524e;
+  margin-bottom: 0;
+}
+main section.comments div.comment .comment-text .comment-content h3 {
+  font-family: "OpenSans-Light", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a4a6a9;
+  margin-bottom: 0;
+}
+main section.comments div.comment .comment-text .comment-content p {
+  color: #4a524e;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+main section.comments div.comment .comment-text .comment-content p:last-child {
+  padding-bottom: 15px;
+}
+main section.comments div.comment .comment-text .comment-content .stars {
+  margin: 10px 0;
+}
+main section.comments div.comment .comment-text .answer {
+  padding: 15px 0 0;
+  border-top: 1px solid #e4e8e7;
+}
+main section.comments div.comment .comment-text .answer .heading .rounded-circle {
+  overflow: hidden;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.comments div.comment .comment-text .answer .heading .rounded-circle img {
+  width: 100px;
+  height: auto;
+}
+main section.comments div.comment .comment-text .answer .heading .info {
+  padding: 5px 15px;
+}
+main section.comments div.comment .comment-text .answer .heading .info h3 {
+  font-weight: lighter;
+  color: #272b29;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+}
+main section.comments div.comment .comment-text .answer .heading .info h3 strong {
+  color: #00a951;
+}
+main section.comments div.comment .comment-text .answer .heading .info h4 {
+  font-size: 14px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #a4a6a9;
+}
+main section.comments div.comment .comment-text .answer .heading .info h4 strong {
+  font-family: "OpenSans-Italic", sans-serif;
+  font-style: italic;
+  color: #828487;
+}
+main section.comments div.comment .comment-text .answer .answer-content p {
+  margin-top: 2.5px;
+  color: #4a524e;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+main section.comments div.comment p.helpful-paragraph {
+  font-size: 14px;
+  color: #a4a6a9 !important;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-weight: lighter;
+}
+main section.comments div.comment p.helpful-paragraph a {
+  font-family: "OpenSans-Regular", sans-serif;
+  padding: 5px 17px;
+  line-height: 16px;
+  background-color: #00a951;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 10px;
+  border-radius: 2.5px;
+}
+main section.comments div.comment p.helpful-paragraph a:hover {
+  background-color: #00cc61;
+}
+main section.comments nav {
+  margin-top: 15px;
+}
+main section.comments nav li {
+  margin: 0 2px;
+}
+main section.comments nav .dots {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #a4a6a9 !important;
+  width: 30px;
+}
+main section.comments nav li:hover {
+  cursor: pointer;
+}
+main section.comments nav li:hover a {
+  background-color: #00cc61;
+  color: white !important;
+}
+main section.comments nav li:hover a span {
+  color: white !important;
+}
+main section.comments nav a {
+  color: #a4a6a9 !important;
+}
+
+section#about {
+  padding: 40px 0px;
+  background-color: #00ac53;
+}
+section#about h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  margin-bottom: 20px;
+}
+section#about p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+}
+section#about p:nth-child(2) {
+  padding: 0 200px;
+}
+section#about p strong {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-weight: bold;
+}
+
+section#attorney {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f8f8f9;
+  padding: 40px 0px;
+}
+section#attorney h2 {
+  color: #000000;
+  font-size: 40px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  margin-bottom: 20px;
+}
+section#attorney .arrows p {
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #00a951;
+}
+section#attorney .arrows p:first-child {
+  margin-right: 15px;
+}
+section#attorney .content {
+  padding-top: 30px !important;
+  border-top: 1px solid #e4e8e7;
+  margin-bottom: 30px !important;
+}
+section#attorney .content figure {
+  background-color: transparent;
+  border-radius: 2px;
+  width: 200px;
+  margin-bottom: 0;
+  margin-right: 40px;
+  overflow: hidden;
+}
+section#attorney .content figure img {
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.5);
+  width: 200px;
+}
+section#attorney .content .text {
+  width: 60%;
+}
+section#attorney .content .text p {
+  color: #868d92;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-family: "OpenSans-Regular", sans-serif;
+}
+section#attorney .content .text p:nth-child(3) {
+  color: #000000;
+}
+section#attorney .content .text p:last-child strong {
+  font-weight: normal;
+  color: #000;
+}
+
+main section#contact {
+  padding: 25px 0;
+}
+main section#contact .heading {
+  padding-bottom: 20px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 40px;
+  color: #000;
+  border-bottom: 2px solid #00a951;
+}
+main section#contact .content {
+  padding-top: 30px !important;
+}
+main section#contact .content .map {
+  padding-right: 100px;
+}
+main section#contact .content .map iframe {
+  width: 100%;
+}
+main section#contact .content .text h2 {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#contact .content .text p {
+  font-family: "OpenSans-Light", sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+main section#contact .content .text > a:last-child {
+  font-family: "OpenSans-Light", sans-serif;
+  margin-top: 10px;
+  background-color: #00a951;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 80px;
+  font-size: 20px;
+}
+main section#contact .content .text > a:last-child:hover {
+  cursor: pointer;
+  background-color: #00cc61;
+}
+
+main section#cases {
+  padding: 50px 20%;
+  border-bottom: 1px solid #e4e8e7;
+}
+main section#cases h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 50px;
+}
+main section#cases .case .name {
+  margin-right: 20px;
+}
+main section#cases .case .name h3 {
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  margin-bottom: 10px;
+}
+main section#cases .case .name p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#cases .case .outcome {
+  margin-left: 20px;
+}
+main section#cases .case .outcome p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#cases .case .outcome h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#cases button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  color: #ffffff;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  background-color: #00a951;
+  border: 0;
+}
+main section#cases button:hover {
+  cursor: pointer;
+  background-color: #00cc61;
+}
+main section#publications {
+  padding: 50px 0;
+  border-bottom: 1px solid #e4e8e7;
+}
+main section#publications h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 50px;
+}
+main section#publications .heading {
+  width: 100%;
+  margin-bottom: 10px;
+}
+main section#publications .heading h3 {
+  width: 45%;
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#publications .heading h3:last-child {
+  text-align: end;
+  width: 10%;
+}
+main section#publications .publication {
+  width: 100%;
+}
+main section#publications .publication .name {
+  width: 45%;
+}
+main section#publications .publication .name p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#publications .publication .title {
+  width: 45%;
+}
+main section#publications .publication .title p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#publications .publication .date {
+  width: 10%;
+}
+main section#publications .publication .date p {
+  margin-bottom: 5px;
+  text-align: end;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#publications button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  color: #ffffff;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  background-color: #00a951;
+  border: 0;
+}
+main section#publications button:hover {
+  cursor: pointer;
+  background-color: #00cc61;
+}
+main section#education {
+  padding: 50px 0;
+  border-bottom: 1px solid #e4e8e7;
+}
+main section#education h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 50px;
+}
+main section#education .heading {
+  width: 100%;
+  margin-bottom: 10px;
+}
+main section#education .heading h3 {
+  width: 25%;
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#education .heading h3:last-child {
+  text-align: end;
+}
+main section#education .publication {
+  width: 100%;
+}
+main section#education .publication > div {
+  width: 25%;
+}
+main section#education .publication > div p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#education .publication > div:last-child {
+  text-align: end;
+}
+main section#education button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  color: #ffffff;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  background-color: #00a951;
+  border: 0;
+}
+main section#education button:hover {
+  cursor: pointer;
+  background-color: #00cc61;
+}
+main section#speaking {
+  padding: 50px 0;
+  border-bottom: 1px solid #e4e8e7;
+}
+main section#speaking h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 50px;
+}
+main section#speaking .heading {
+  width: 100%;
+  margin-bottom: 10px;
+}
+main section#speaking .heading h3 {
+  width: 45%;
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#speaking .heading h3:last-child {
+  text-align: end;
+  width: 10%;
+}
+main section#speaking .engagement {
+  width: 100%;
+}
+main section#speaking .engagement .name {
+  width: 45%;
+}
+main section#speaking .engagement .name p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#speaking .engagement .title {
+  width: 45%;
+}
+main section#speaking .engagement .title p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#speaking .engagement .date {
+  width: 10%;
+}
+main section#speaking .engagement .date p {
+  margin-bottom: 5px;
+  text-align: end;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#speaking button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  color: #ffffff;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  background-color: #00a951;
+  border: 0;
+}
+main section#speaking button:hover {
+  cursor: pointer;
+  background-color: #00cc61;
+}
+
+main section#resume h2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 50px;
+}
+main section#resume .block {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #dadadb;
+  padding: 25px;
+}
+main section#resume .block:nth-child(2) {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+main section#resume .block:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+main section#resume .block .license .heading {
+  width: 70%;
+  margin-bottom: 10px;
+}
+main section#resume .block .license .heading h3 {
+  width: 25%;
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#resume .block .license .heading h3:last-child {
+  text-align: end;
+}
+main section#resume .block .license .license-one {
+  width: 70%;
+}
+main section#resume .block .license .license-one p {
+  width: 25%;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#resume .block .license .license-one p:last-child {
+  text-align: end;
+}
+main section#resume .block .license .check-mark {
+  margin-top: 20px;
+}
+main section#resume .block .license .check-mark i {
+  margin-right: 10px !important;
+  font-size: 30px !important;
+  color: #00a951 !important;
+}
+main section#resume .block .license .check-mark h3 {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #000;
+}
+main section#resume .block .awards .heading {
+  margin-bottom: 10px;
+}
+main section#resume .block .awards .heading h3 {
+  width: calc(100% / 3);
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#resume .block .awards .heading h3:nth-child(2) {
+  text-align: center;
+}
+main section#resume .block .awards .heading h3:last-child {
+  text-align: end;
+}
+main section#resume .block .awards .awards-one p {
+  width: calc(100% / 3);
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#resume .block .awards .awards-one p:nth-child(2) {
+  text-align: center;
+}
+main section#resume .block .awards .awards-one p:last-child {
+  text-align: end;
+}
+main section#resume .block .work-experience .heading {
+  margin-bottom: 10px;
+}
+main section#resume .block .work-experience .heading h3 {
+  width: calc(100% / 3);
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#resume .block .work-experience .heading h3:nth-child(2) {
+  text-align: center;
+}
+main section#resume .block .work-experience .heading h3:last-child {
+  text-align: end;
+}
+main section#resume .block .work-experience .work-experience-one p {
+  width: calc(100% / 3);
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#resume .block .work-experience .work-experience-one p:nth-child(2) {
+  text-align: center;
+}
+main section#resume .block .work-experience .work-experience-one p:last-child {
+  text-align: end;
+}
+main section#resume .block .cases .heading {
+  margin-bottom: 10px;
+}
+main section#resume .block .cases .heading h3 {
+  width: calc(100% / 3);
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#resume .block .cases .heading h3:nth-child(2) {
+  text-align: center;
+}
+main section#resume .block .cases .heading h3:last-child {
+  text-align: end;
+}
+main section#resume .block .cases .cases-one p {
+  width: calc(100% / 3);
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "OpenSans-Light", sans-serif;
+}
+main section#resume .block .cases .cases-one p:nth-child(2) {
+  text-align: center;
+}
+main section#resume .block .cases .cases-one p:last-child {
+  text-align: end;
+}
+main section#claim {
+  padding: 50px 0;
+  text-align: center !important;
+}
+main section#claim h2 {
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+main section#claim p {
+  color: #60686f;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+main section#claim a {
+  margin-top: 15px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-family: "OpenSans-Regular", sans-serif;
+  border-radius: 5px;
+  background-color: #00a951;
+}
+main section#claim a:hover {
+  background-color: #00cc61;
+}
+.btn-show-more {
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  padding: 13px 30px;
+  line-height: 20px;
+  font-size: 16px;
+  height: 46px;
+  background: #00af54;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  -webkit-transition: all ease .3s;
+  vertical-align: middle;
+}
+
+.btn-show-more:hover {
+  color: #FFF;
+  text-decoration: none;
+  background: #00cb61;
+}
+
+.btn-show-more:active {
+  color: #FFF;
+  background: #01984a;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset;
+}
+
+.limit-description {
+  height: 90px;
+}
+
+.sponsored-solicitor-name {
+  height: 42px;
+}
+
+#book-modal {
+  position: inherit;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 0;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.rating-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.review-firm-img-holder, .firm-img-holder {
+  max-width: 170px;
+  border-radius: 0;
+  float: left;
+  max-height: 170px;
+  overflow: hidden;
+}
+
+.review-firm-img-holder {
+    margin-top: 20px;
+}
+
+.review-firm-img-holder img, .firm-img-holder img {
+  display: block;
+  height: auto;
+  vertical-align: top;
+  width: 100%;
+}
+
+.review-firm-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-firm-name {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+  .limit-description {
+    height: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .limit-description {
+    height: 88px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header nav {
+    padding: 10px 15px;
+  }
+  header nav > div a {
+    margin-bottom: 5px !important;
+  }
+  header .img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px !important;
+  }
+  header .img-header img {
+    margin: 0 auto;
+  }
+
+  main {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px 10px;
+  }
+  main .photo {
+    margin-bottom: 10px;
+  }
+  main .right svg {
+    margin: 0 auto !important;
+  }
+  main .contact a {
+    margin: 10px 0 0 0 !important;
+  }
+  main section#rating {
+    align-items: center !important;
+  }
+  main section#rating .experience {
+    margin: 20px 0;
+    padding: 0 !important;
+  }
+  main section#rating .summary {
+    width: 100% !important;
+    margin: 20px 0;
+    padding: 0 !important;
+  }
+  main section#rating .summary .summary-one {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  main section#rating .summary .summary-one h3 {
+    width: 20% !important;
+  }
+  main section#rating .summary .summary-one .counter {
+    padding-left: 10px !important;
+    width: 80% !important;
+    justify-content: center !important;
+  }
+  main section#rating .summary .summary-one .counter .fill {
+    width: 100% !important;
+  }
+
+  section#awards .awards .award {
+    margin-right: 0 !important;
+  }
+
+  section#write-comment .stars {
+    width: 100%;
+    font-size: 30px;
+    width: 100%;
+  }
+  section#write-comment .stars i {
+    margin-right: 2px;
+  }
+  section#write-comment .stars i:last-child {
+    margin-right: 0;
+  }
+  section#write-comment h3 {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  section.comments .comment .user {
+    flex-wrap: wrap;
+  }
+  section.comments .comment .user .rounded-circle {
+    margin-right: 5%;
+    width: 20%;
+  }
+  section.comments .comment .user h2 {
+    width: 75%;
+  }
+  section.comments .comment .user h3:nth-child(3) {
+    width: 100%;
+    margin-top: 10px !important;
+  }
+  section.comments .comment .user h3:not(:nth-child(3)) {
+    width: calc(100% / 3) !important;
+  }
+  section.comments .comment .answer .heading .rounded-circle {
+    width: 20% !important;
+    margin-right: 5% !important;
+  }
+  section.comments .comment .answer .heading .info {
+    width: 75% !important;
+  }
+
+  section#about {
+    padding: 50px 25px !important;
+  }
+  section#about P {
+    padding: 0 25px !important;
+  }
+
+  section#attorney {
+    padding: 25px 15px !important;
+    align-items: center !important;
+    padding: 30px 50px;
+  }
+  section#attorney .arrows {
+    display: block !important;
+  }
+  section#attorney .arrows p {
+    display: block !important;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  section#attorney figure {
+    margin: 0 auto 20px !important;
+    box-shadow: none;
+  }
+  section#attorney .text {
+    width: 100% !important;
+  }
+  section#attorney .text p {
+    width: 100% !important;
+  }
+
+  .stripe {
+    width: 100% !important;
+  }
+
+  #cases {
+    padding: 25px 0 !important;
+  }
+
+  section#contact .map {
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  section#contact .text p {
+    width: 100% !important;
+  }
+  section#contact .text a {
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  section#publications, #education, #speaking {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  section#publications h2, #education h2, #speaking h2 {
+    font-size: 24px !important;
+    text-align: center !important;
+  }
+  section#publications#publications h3:nth-child(2), #education#publications h3:nth-child(2), #speaking#publications h3:nth-child(2) {
+    text-align: center;
+  }
+  section#publications .heading h3, #education .heading h3, #speaking .heading h3 {
+    padding: 0 2.5px;
+    font-size: 14px !important;
+  }
+  section#publications .publication p, section#publications .publication div p, #education .publication p, #education .publication div p, #speaking .publication p, #speaking .publication div p {
+    padding: 0 2.5px;
+    font-size: 13px !important;
+  }
+
+  section#resume h2 {
+    font-size: 24px !important;
+    text-align: center !important;
+  }
+  section#resume .block {
+    padding: 20px 10px !important;
+  }
+  section#resume .block h3 {
+    padding: 0 2.5px;
+    font-size: 14px !important;
+  }
+  section#resume .block p {
+    padding: 0 2.5px;
+    font-size: 13px !important;
+  }
+  section#resume .block .heading {
+    width: 100% !important;
+  }
+  section#resume .block .license-one {
+    width: 100% !important;
+  }
+
+  .right.no-premium {
+    margin-top: 20px;
+  }
+  .right.no-premium h3 {
+    text-align: center;
+  }
+
+  section#sponsored .profile {
+    margin: 20px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+.typesOfClient {
+    height: 105vw;
+}
+
+.personal {
+    margin-top: 4.5vw;
+}
+
+.benefitsImg {
+    width: 920px;
+}
+
+@media all and (max-width: 1600px) {
+    .benefitsImg {
+        width: 785px;
+    }
+}
+@media all and (max-width: 1440px) {
+    .benefitsImg {
+        width: 685px;
+        left: 3vw;
+    }
+      .benefitsText {
+        left: 3vw;
+    }
+    .typesOfClient {
+        height: 107vw;
+    }
+}
+@media all and (max-width: 1024px) {
+  .uniqueImg img {
+        width: 400px;
+        height: 345px;
+    }
+    .typesOfClient {
+        height: 115vw;
+    }
+    .personal {
+    margin-top: 5.5vw;
+}
+      .benefitsText {
+        padding-left: 5vw;
+        padding-top: 1.5vw;
+    }
+    .pageTwo h1
+    {
+        padding: 65px 7vw 35px;
+    }
+    .iconBox
+    {
+        width: 160px;
+    }
+}

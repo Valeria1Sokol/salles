@@ -1,0 +1,231 @@
+.rounded-circle {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+    height: 70px;
+    width: 70px;
+    border-radius: 50% !important;
+}
+
+.rounded-circle img {
+    width: 70px;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#solicitors-group {
+    clear: both;
+}
+
+.response-info {
+    color: #a4a6a9;
+    font-size: 13px;
+}
+
+.response-author {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.response-author a, .response-author a:hover {
+    text-decoration: none;
+}
+
+.row.response {
+    margin-top: 0 !important;
+}
+
+#googleReviews .row.response div p {
+    margin-top: 20px;
+}
+
+.response-section-with-photo {
+    margin-top: 10px;
+}
+
+#individual-solicitors-section {
+    background: #f5f5f5;
+    padding-top: 15px;
+    width: 100vw;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.individual-solicitors-container {
+    border-top: 1px solid #d3d3d3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.individual-solicitor-carousel-element {
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 340px !important;
+}
+
+.solicitor-photo {
+    background-position: center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    width: 160px;
+    height: 130px;
+    align-self: center;
+}
+
+.individual-solicitor-carousel-element-content {
+    color: #4a524e;
+    height: 240px;
+}
+
+.individual-solicitor-content {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.individual-solicitor-name {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.individual-solicitor-score-text, .individual-solicitor-score, .individual-solicitor-reviews, .individual-solicitor-type {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.individual-solicitor-score {
+    font-size: 18px;
+}
+
+.individual-solicitor-score-text-green {
+    color: #00a971;
+}
+
+.individual-solicitor-score .fa {
+    color: #e4e8e7;
+}
+
+.individual-solicitor-score .fa.yellow {
+    color: #ffd500;
+}
+
+.individual-solicitor-reviews {
+    color: #a4a6a9;
+}
+
+.individual-solicitor-type {
+    color: #FFF;
+    padding: 12px 20px;
+    line-height: 6px;
+    font-size: 16px;
+    height: 31px;
+    background: #22b14c;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.individual-solicitor-non-sra-type {
+    color: #FFF;
+    padding: 5px 20px;
+    line-height: 15px;
+    font-size: 15px;
+    height: auto;
+    background: #00a2e8;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.individual-solicitor-non-sra-type-smaller-text {
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.individual-solicitor-link, .individual-solicitor-link:hover {
+    text-decoration: none;
+}
+
+.isol-prev:before, .isol-next:before {
+    font: normal normal normal 16px/1 FontAwesome;
+}
+
+.isol-prev:before {
+    content: "\f053";
+}
+
+.isol-next:before {
+    content: "\f054";
+}
+
+.isol-prev {
+    left: -10px;
+}
+
+.isol-next {
+    right: -10px;
+}
+
+.isol-prev, .isol-next {
+    position: absolute;
+    top: 50%;
+    color: #b9bbbd;
+    font-size: 0;
+    margin-top: -8px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.individual-solicitors-container h2 {
+    margin-bottom: 30px;
+    align-self: center;
+    font-size: 22px;
+}
+
+.individual-solicitors-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-btn {
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 30px;
+    line-height: 20px;
+    font-size: 16px;
+    height: 46px;
+    background: #00af54;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    vertical-align: middle;
+}
+
+.more-btn:hover {
+    color: #FFF;
+    text-decoration: none;
+    background: #00cb61;
+}
+
+.more-btn:active {
+    color: #FFF;
+    background: #01984a;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset;
+}
