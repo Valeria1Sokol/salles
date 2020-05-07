@@ -8,6 +8,9 @@
     padding: 0;
     top: 105px;
 }
+#case .slider .openBox {
+        color: #3d3d3d;
+    }
 
 .sallesSlider .openBox {
     display: none;
@@ -17,8 +20,29 @@
     box-sizing: border-box;
     font-size: 0.9vw;
     padding: 1vw 0 0;
+    width: 100% !important;
 }
 
+#case .text-wrapper {
+    width: 76%;
+    padding: 0 0 0 11.5vw;
+}
+
+#case .slider {
+    width: 88%;
+    margin: 3vw auto 0;
+}
+
+#case .slick-slide {
+    padding: 0 2.9vw 0 0;
+    margin: 0;
+}
+
+@media all and (max-width:1440px) {
+    .sallesSlider .slick-list {
+        padding: 0px 80px 0 100px !important;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -34,6 +58,20 @@
     .sallesSlider .slick-list {
         padding: 0px 110px !important;
     }
+
+    #case .text-wrapper {
+        width: 76%;
+        padding: 0 0 0 9.5vw;
+    }
+
+    #case .slider {
+        width: 100%;
+        margin: 3vw auto 0;
+    }
+
+    #case {
+        padding: 2.9vw 2.6vw;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,9 +79,18 @@
         padding: 0 10vw 2.6vw;
     }
 
+    #case .text-wrapper {
+        width: 76%;
+        padding: 0 0 0 12.5vw;
+    }
+
     .navbar {
         height: 67px !important;
         padding: 3vw 1.8vw 2vw 2.5vw;
+    }
+
+    #case .slider .slick-arrow {
+        top: 188px;
     }
 
     .top-bar .logo-rs {
@@ -51,8 +98,9 @@
     }
 
     #intro .introtext {
-        font-size: 2.25vw !important;
+        font-size: 18px !important;
         margin: 0 0 5vw !important;
+        line-height: 25px;
     }
 
     .request-demonstration-section #firstname,
@@ -63,10 +111,85 @@
     }
 }
 
-
-
-
 @media all and (max-width:425px) {
+    #case h1 {
+        font-size: 24px;
+    }
+
+    #intro .content .tel {
+        padding: 2.1vw 1.9vw;
+        font-size: 18px;
+    }
+
+    #case {
+        padding: 10.9vw 2.6vw;
+    }
+
+    #case .slider p {
+        font-size: 18px;
+        /*        text-align: center;*/
+    }
+
+    #case .slider a {
+        font-size: 15px;
+        /*        text-align: center;*/
+    }
+
+    #case .slider .logoFirm1 {
+        max-width: 60%;
+        /*        margin: 20px auto;*/
+    }
+
+    
+
+
+    #intro .logo-google {
+        width: 19vw;
+    }
+
+    #intro .face img,
+    #intro .face {
+        width: 25vw;
+    }
+
+    #intro .twit img,
+    #intro .twit {
+        width: 18.7vw;
+    }
+
+    #intro .twit img {
+        width: 18.7vw;
+        position: relative;
+        top: -0.8vw;
+    }
+
+    #case .text-wrapper {
+        width: 95%;
+        padding: 0 0 0 8.5vw;
+    }
+
+    #case .slider .slick-arrow {
+        top: 110px;
+    }
+
+    .mobile-customer-reviews,
+    .mobile-rating {
+        width: 233px;
+    }
+
+    .mobile-customer-reviews {
+        left: calc(50% - 190px);
+        top: 14vw;
+    }
+
+    .benefits-section .devices {
+        padding: 30px 0 60px;
+    }
+
+    .mobile-rating {
+        left: calc(50% - 274px);
+    }
+
 
     .footer .content {
         width: 100% !important;
@@ -86,6 +209,14 @@
         padding: 17px;
     }
 
+    #case p {
+        font-size: 18px;
+    }
+
+    #intro .content .title {
+        font-size: 24px;
+    }
+
     .navbar-right {
         justify-content: center;
         align-items: flex-start;
@@ -97,10 +228,34 @@
         margin: 0;
     }
 
+    #intro .join-now h1 {
+        margin: 0 0 20px 0;
+        font-size: 24px;
+    }
+
+    #intro .join-now p {
+        font-size: 16px;
+    }
+
+    #intro .join-now .control-form {
+        font-size: 14px;
+        padding: 2.73vw 0 2.73vw 15.4vw;
+    }
+
+    #intro .btn-md {
+        font-size: 12px;
+    }
+
+    #intro .join-now {
+        width: 76%;
+        padding: 6% 4.4%;
+        margin-top: 5vw;
+    }
+
     .navbar {
         width: 100%;
         height: 90px !important;
-        padding: 3vw 1.8vw 4vw 2.5vw;
+        padding: 3vw 1.8vw 4vw 8.5vw;
     }
 
     .nav-links {
@@ -115,6 +270,7 @@
 
     #case p {
         width: 100%;
+        text-align: center;
     }
 
     .top-bar .nav-links {

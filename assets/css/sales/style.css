@@ -1,5 +1,6 @@
 /* ------------------------------------------------------------------------ Globals ------------------------------------------------------------------------ */
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -114,7 +115,16 @@ a {
     cursor: pointer !important;
 }
 
-p, h1, h2, h3, h4, h5, h6, span, ul, li {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+ul,
+li {
     cursor: default;
 }
 
@@ -243,7 +253,8 @@ a {
     border-radius: 25px;
 }
 
-.input-group, .input-group .btn-md {
+.input-group,
+.input-group .btn-md {
     width: 100%;
 }
 
@@ -290,18 +301,23 @@ a {
     background-size: 18px;
 }
 
-.control-form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.control-form::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #acacac;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
-.control-form:-ms-input-placeholder { /* Internet Explorer 10-11 */
+.control-form:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
     color: #acacac;
 }
 
-.control-form::-ms-input-placeholder { /* Microsoft Edge */
+.control-form::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: #acacac;
 }
+
 /* ========== End Of Form Style ========== */
 /* ------------------------------------------------------------------------ End Of Globals ------------------------------------------------------------------------ */
 
@@ -312,7 +328,7 @@ a {
     border: none;
     display: block !important;
     background-color: #00af54;
-    box-shadow: 0 7px 50px rgba(0,0,0,0.1);
+    box-shadow: 0 7px 50px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -328,6 +344,7 @@ a {
     padding-top: 28px;
     padding-bottom: 28px;
 }
+
 .top-bar .badge {
     padding: 0;
 }
@@ -340,6 +357,7 @@ a {
     opacity: 1;
     z-index: 11;
 }
+
 /* ====================================================== End Of Navigation Bar ============================================================ */
 
 /* ====================================================== Advantages Section ============================================================ */
@@ -420,6 +438,7 @@ a {
 .ic.ic-new-client {
     background-image: url("../../img/sales/ic-new-client.svg");
 }
+
 /* ====================================================== End Of Advantages Section ============================================================ */
 
 /* ====================================================== Benefits Section ============================================================ */
@@ -437,7 +456,8 @@ a {
     margin-right: 15px;
 }
 
-.benefits-section h1, .benefits-section h5 {
+.benefits-section h1,
+.benefits-section h5 {
     color: #fff !important;
 }
 
@@ -490,6 +510,7 @@ a {
     top: 70px;
     left: calc(50% - 70px);
 }
+
 /* ====================================================== End Of Benefits Section ============================================================ */
 
 /* ====================================================== Google Rating Section ============================================================= */
@@ -501,6 +522,7 @@ a {
 .google-rating-section .browser.left {
     left: -9px;
 }
+
 /* ====================================================== End Of Google Rating Section ============================================================ */
 
 /* ====================================================== Google And Facebook Section ============================================================ */
@@ -518,6 +540,7 @@ a {
     bottom: -118px;
     width: calc(100% - 30px);
 }
+
 /* ====================================================== End Of Google And Facebook Section ============================================================ */
 
 /* ====================================================== Tailored Review Section ============================================================ */
@@ -530,6 +553,7 @@ a {
     width: 485px;
     padding: 80px 0 0 0;
 }
+
 /* ====================================================== End Of Tailored Review Section ============================================================ */
 
 /* ====================================================== Client Feedback Section ============================================================ */
@@ -545,6 +569,7 @@ a {
     width: 485px;
     padding: 240px 0 0 0;
 }
+
 /* ====================================================== End Of Client Feedback Section ============================================================ */
 
 /* ====================================================== Individual Profiles Section ============================================================ */
@@ -556,6 +581,7 @@ a {
 .individual-profiles-section .browser.left {
     left: -51px;
 }
+
 /* ====================================================== End Of Individual Profiles Section ============================================================ */
 
 /* ====================================================== Ranking Pages Section ============================================================ */
@@ -567,6 +593,7 @@ a {
     width: 455px;
     padding: 240px 0 0 0;
 }
+
 /* ====================================================== End Of Ranking Pages Section ============================================================ */
 
 /* ====================================================== Professional Profile Section ============================================================ */
@@ -582,6 +609,7 @@ a {
 .professional-profile-section .browser.left {
     left: -51px;
 }
+
 /* ====================================================== End Of Professional Profile Section ============================================================ */
 
 /* ====================================================== Access To Widgets Section ============================================================ */
@@ -593,6 +621,7 @@ a {
     width: 470px;
     padding: 240px 0 0 0;
 }
+
 /* ====================================================== End Of Access To Widgets Section ============================================================ */
 
 /* ====================================================== End Of Our Clients Section ============================================================ */
@@ -609,13 +638,14 @@ a {
     text-align: center;
 }
 
-.our-clients-section .client-logo + .client-logo{
+.our-clients-section .client-logo + .client-logo {
     margin-left: 60px;
 }
 
 .our-clients-section .section-divider {
     bottom: -68px;
 }
+
 /* ====================================================== End Of Our Clients Section ============================================================ */
 
 /* ====================================================== Collect Reviews Section ============================================================ */
@@ -627,6 +657,7 @@ a {
 .collect-reviews-section .browser.right {
     right: 150px;
 }
+
 /* ====================================================== End Of Collect Reviews Section ============================================================ */
 
 /* ====================================================== Statistic Section ============================================================ */
@@ -638,6 +669,7 @@ a {
 .statistic-section .browser.left {
     left: -51px;
 }
+
 /* ====================================================== End Of Statistic Section ============================================================ */
 
 /* ====================================================== Customer Comments Section ============================================================ */
@@ -682,7 +714,8 @@ a {
     outline: none !important;
 }
 
-.firms.slider h5, .firms.slider h4 {
+.firms.slider h5,
+.firms.slider h4 {
     color: #181818;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -736,6 +769,7 @@ a {
     position: relative;
     margin: 0 55px;
 }
+
 /* ====================================================== End Of Customer Comments Section ============================================================ */
 
 /* ====================================================== Leader Package Section ============================================================ */
@@ -796,6 +830,7 @@ a {
 .benefits-block .btn-md {
     margin-top: 30px;
 }
+
 /* ====================================================== End Of Leader Package Section ============================================================ */
 
 /* ====================================================== Request Demonstration Section ============================================================ */
@@ -806,6 +841,7 @@ a {
 .request-demonstration-section {
     background-color: #fff;
 }
+
 /* ====================================================== End Of Request Demonstration Section ============================================================ */
 
 /* ====================================================== Footer ============================================================ */
@@ -824,6 +860,7 @@ a {
     width: 500px;
     text-align: center;
 }
+
 /* ====================================================== End Of Footer ============================================================ */
 
 /* ***************** jquery auto-complete menu ************************************ */
@@ -873,7 +910,10 @@ a {
     text-align: left;
 }
 
-.ui-state-hover, .ui-state-focus, .ui-state-active, .ui-menu-item:hover {
+.ui-state-hover,
+.ui-state-focus,
+.ui-state-active,
+.ui-menu-item:hover {
     background-color: #00af54;
     color: white;
     text-decoration: none;
@@ -889,7 +929,8 @@ a {
     width: 283px;
 }
 
-#firm-menu-container1,#firm-menu-container2 {
+#firm-menu-container1,
+#firm-menu-container2 {
     position: absolute;
     width: 370px;
 }
@@ -900,16 +941,19 @@ a {
 
 /* ------------------------------------------------------------------------ Responsive ------------------------------------------------------------------------ */
 @media only screen and (max-width: 1770px) {
+
     /* ========== Google Rating Section ========== */
     .google-rating-section .text-block {
         width: 370px;
     }
+
     /* ========== End Of Google Rating Section ========== */
 
     /* ========== Google And Facebook Section ========== */
     .google-facebook-section .text-block {
         width: 395px;
     }
+
     /* ========== End Of Google And Facebook Section ========== */
 
     /* ========== Tailored Review Section ========== */
@@ -917,6 +961,7 @@ a {
         width: 400px;
         padding: 50px 0 0 0;
     }
+
     /* ========== End Of Tailored Review Section ========== */
 
     /* ========== Client Feedback Section ========== */
@@ -927,40 +972,47 @@ a {
     .client-feedback-section .text-block {
         width: 322px;
     }
+
     /* ========== End Of Client Feedback Section ========== */
 
     /* ========== Individual Profiles Section ========== */
     .individual-profiles-section .text-block {
         width: 305px;
     }
+
     /* ========== End Of Individual Profiles Section ========== */
 
     /* ========== Ranking Pages Section ========== */
     .ranking-pages-section .text-block {
         width: 305px;
     }
+
     /* ========== End Of Ranking Pages Section ========== */
 
     /* ========== Professional Profile Section ========== */
     .professional-profile-section .text-block {
         width: 290px;
     }
+
     /* ========== End Of Professional Profile Section ========== */
 
     /* ========== Access To Widgets Section ========== */
     .access-widgets-section .text-block {
         width: 276px;
     }
+
     /* ========== End Of Access To Widgets Section ========== */
 
     /* ========== Statistic Section ========== */
     .statistic-section .text-block {
         width: 300px;
     }
+
     /* ========== End Of Statistic Section ========== */
 
     /* ========== Benefits Section ========== */
-    .mobile-customer-reviews, .mobile-rating {
+    .mobile-customer-reviews,
+    .mobile-rating {
         width: 470px;
     }
 
@@ -971,22 +1023,27 @@ a {
     .mobile-rating {
         left: calc(50% - 62px);
     }
+
     /* ========== End Of Benefits Section ========== */
 }
 
 @media only screen and (max-width: 1580px) {
+
     /* ========== Intro Section ========== */
     .intro-section .join-now {
         width: 578px;
     }
+
     /* ========== End Of Intro Section ========== */
 }
 
 @media only screen and (max-width: 1555px) {
+
     /* -------------------- Globals -------------------- */
     .container {
         width: 1160px;
     }
+
     /* -------------------- End Of Globals -------------------- */
 
     /* ========== Intro Section ========== */
@@ -997,6 +1054,7 @@ a {
     #case p {
         width: 440px;
     }
+
     /* ========== End Of Intro Section ========== */
 
     /* ========== Advantages Section ========== */
@@ -1009,10 +1067,12 @@ a {
         height: 256px;
         top: calc(50% - 115px);
     }
+
     /* ========== End Of Advantages Section ========== */
 
     /* ========== Benefits Section ========== */
-    .mobile-customer-reviews, .mobile-rating {
+    .mobile-customer-reviews,
+    .mobile-rating {
         width: 430px;
     }
 
@@ -1027,6 +1087,7 @@ a {
     .mobile-rating {
         top: 85px;
     }
+
     /* ========== End Of Benefits Section ========== */
 
     /* ========== Google Rating Section ========== */
@@ -1038,6 +1099,7 @@ a {
         width: 324px;
         padding: 100px 0 0 0;
     }
+
     /* ========== End Of Google Rating Section ========== */
 
     /* ========== Google And Facebook Section ========== */
@@ -1051,6 +1113,7 @@ a {
         width: 315px;
         padding: 0;
     }
+
     /* ========== End Of Google And Facebook Section ========== */
 
     /* ========== Tailored Review Section ========== */
@@ -1062,6 +1125,7 @@ a {
         width: 290px;
         padding: 0;
     }
+
     /* ========== End Of Tailored Review Section ========== */
 
     /* ========== Client Feedback Section ========== */
@@ -1073,6 +1137,7 @@ a {
         width: 252px;
         padding: 120px 0 0 0;
     }
+
     /* ========== End Of Client Feedback Section ========== */
 
     /* ========== Individual Profiles Section ========== */
@@ -1084,6 +1149,7 @@ a {
         padding: 90px 0 0 0;
         width: 300px;
     }
+
     /* ========== End Of Individual Profiles Section ========== */
 
     /* ========== Ranking Pages Section ========== */
@@ -1095,6 +1161,7 @@ a {
         padding: 120px 0 0 0;
         width: 250px;
     }
+
     /* ========== End Of Ranking Pages Section ========== */
 
     /* ========== Professional Profile Section ========== */
@@ -1109,6 +1176,7 @@ a {
     .professional-profile-section .text-block {
         padding: 120px 0 0 0;
     }
+
     /* ========== End Of Professional Profile Section ========== */
 
     /* ========== Access To Widgets Section ========== */
@@ -1119,6 +1187,7 @@ a {
     .access-widgets-section .text-block {
         padding: 120px 0 0 0;
     }
+
     /* ========== End Of Access To Widgets Section ========== */
 
     /* ========== Our Clients Section ========== */
@@ -1129,6 +1198,7 @@ a {
     .our-clients-section .section-divider {
         bottom: -88px;
     }
+
     /* ========== End Of Our Clients Section ========== */
 
     /* ========== Access To Widgets Section ========== */
@@ -1140,6 +1210,7 @@ a {
     .collect-reviews-section .browser img {
         width: 570px;
     }
+
     /* ========== End Of Access To Widgets Section ========== */
 
     /* ========== Statistic Section ========== */
@@ -1150,18 +1221,22 @@ a {
     .statistic-section .text-block {
         padding: 120px 0 0 0;
     }
+
     /* ========== End Of Statistic Section ========== */
 
     /* ========== Customer Comments Section ========== */
     .firms.slider .slick-list {
         width: 940px;
     }
+
     /* ========== End Of Customer Comments Section ========== */
 }
 
 @media only screen and (max-width: 1460px) {
+
     /* ========== Benefits Section ========== */
-    .mobile-customer-reviews, .mobile-rating {
+    .mobile-customer-reviews,
+    .mobile-rating {
         width: 370px;
     }
 
@@ -1174,60 +1249,71 @@ a {
         bottom: 90px;
         left: calc(50% - 302px);
     }
+
     /* ========== End Of Benefits Section ========== */
 }
 
 @media only screen and (max-width: 1345px) {
+
     /* ========== Google Rating Section ========== */
     .google-rating-section .browser img {
         width: 750px;
     }
+
     /* ========== End Of Google Rating Section ========== */
 
     /* ========== Client Feedback Section ========== */
     .client-feedback-section .browser img {
         width: 750px;
     }
+
     /* ========== End Of Client Feedback Section ========== */
 
     /* ========== Individual Profiles Section ========== */
     .individual-profiles-section .browser img {
         width: 820px;
     }
+
     /* ========== End Of Individual Profiles Section ========== */
 
     /* ========== Ranking Pages Section ========== */
     .ranking-pages-section .browser img {
         width: 820px;
     }
+
     /* ========== End Of Ranking Pages Section ========== */
 
     /* ========== Professional Profile Section ========== */
     .professional-profile-section .browser img {
         width: 820px;
     }
+
     /* ========== End Of Professional Profile Section ========== */
 
     /* ========== Access To Widgets Section ========== */
     .access-widgets-section .browser img {
         width: 820px;
     }
+
     /* ========== End Of Access To Widgets Section ========== */
 
     /* ========== Collect Reviews Section ========== */
     .collect-reviews-section .browser.right {
         right: 35px;
     }
+
     /* ========== End Of Collect Reviews Section ========== */
 
     /* ========== Statistic Section ========== */
     .statistic-section .browser img {
         width: 820px;
     }
+
     /* ========== End Of Statistic Section ========== */
 }
 
 @media only screen and (max-width: 1240px) {
+
     /* -------------------- Globals -------------------- */
     .container {
         width: 940px;
@@ -1248,8 +1334,7 @@ a {
 
     .client-feedback-section .text-block,
     .google-rating-section .text-block,
-    .tailored-review-section .text-block
-    .google-facebook-section .text-block {
+    .tailored-review-section .text-block .google-facebook-section .text-block {
         margin-bottom: 50px !important;
     }
 
@@ -1275,6 +1360,7 @@ a {
     .browser-section {
         padding: 91px 0 0 0;
     }
+
     /* -------------------- End Of Globals -------------------- */
 
     /* ========== Intro Section ========== */
@@ -1292,11 +1378,11 @@ a {
     }
 
     #intro .join-now .control-form {
-        margin: 0!important;
+        margin: 0 !important;
     }
 
     #intro .download-brochure {
-        width: 21.7vw!important;
+        width: 21.7vw !important;
     }
 
     #intro .download-brochure strong {
@@ -1306,6 +1392,7 @@ a {
     .join-now .btn-md {
         font-size: 15px;
     }
+
     /* ========== End Of Intro Section ========== */
 
     /* ========== Advantages Section ========== */
@@ -1321,6 +1408,7 @@ a {
         margin-left: 25%;
         margin-top: 20px;
     }
+
     /* ========== End Of Advantages Section ========== */
 
     /* ========== Benefits Section ========== */
@@ -1337,7 +1425,8 @@ a {
         position: relative;
     }
 
-    .mobile-customer-reviews, .mobile-rating {
+    .mobile-customer-reviews,
+    .mobile-rating {
         width: 430px;
     }
 
@@ -1354,6 +1443,7 @@ a {
         top: 0;
         left: calc(50% - 490px);
     }
+
     /* ========== End Of Benefits Section ========== */
 
     /* ========== Google And Facebook Section ========== */
@@ -1384,24 +1474,28 @@ a {
     .google-facebook-section .section-divider {
         bottom: -91px;
     }
+
     /* ========== End Of Google And Facebook Section ========== */
 
     /* ========== Tailored Review Section ========== */
     .tailored-review-section {
         padding: 91px 0;
     }
+
     /* ========== End Of Tailored Review Section ========== */
 
     /* ========== Client Feedback Section ========== */
     .client-feedback-section {
         padding: 10px 0 0 0;
     }
+
     /* ========== End Of Client Feedback Section ========== */
 
     /* ========== Professional Profile Section ========== */
     .professional-profile-section.browser-section {
         padding: 91px 0 0 0 !important;
     }
+
     /* ========== End Of Professional Profile Section ========== */
 
     /* ========== Customer Comments Section ========== */
@@ -1416,6 +1510,7 @@ a {
     .slick-arrow.next {
         right: 40px;
     }
+
     /* ========== End Of Customer Comments Section ========== */
 
     /* ========== Our Clients Section ========== */
@@ -1437,6 +1532,7 @@ a {
     .our-clients-section .widgets:last-child img {
         margin: 0;
     }
+
     /* ========== End Of Our Clients Section ========== */
 
     /* ========== Collect Reviews Section ========== */
@@ -1445,22 +1541,26 @@ a {
         margin-left: auto;
         margin-right: auto;
     }
+
     /* ========== End Of Collect Reviews Section ========== */
 }
 
 @media only screen and (max-width: 991px) {
+
     /* ========== Navigation Bar ========== */
     .container {
         width: 770px;
     }
 
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
         margin-left: 0;
         background-size: 251px;
         width: 68px;
         background-position: left;
         left: calc(50% - 28px);
     }
+
     /* ========== End Of Navigation Bar ========== */
 
     /* ========== Intro Section ========== */
@@ -1469,7 +1569,7 @@ a {
         text-align: center;
         margin-bottom: 35px;
     }
-    
+
     .join-now .logo-rs {
         display: none;
     }
@@ -1492,6 +1592,7 @@ a {
     .download-brochure h4 {
         line-height: 20px;
     }
+
     /* ========== End Of Intro Section ========== */
 
     /* ========== Advantages Section ========== */
@@ -1521,24 +1622,28 @@ a {
     .advantages-section .col-md-4 + .col-md-4 {
         margin-top: 90px !important;
     }
+
     /* ========== End Of Advantages Section ========== */
 
     /* ========== Google And Facebook Section ========== */
     .google-facebook-section .text-block h3 {
         width: 100%;
     }
+
     /* ========== End Of Google And Facebook Section ========== */
 
     /* ========== Collect Reviews Section ========== */
     .collect-reviews-section .text-block h3 {
         width: 100%;
     }
+
     /* ========== End Of Collect Reviews Section ========== */
 
     /* ========== Our Clients Section ========== */
     .our-clients-section .client-logo img {
         margin-bottom: 10px;
     }
+
     /* ========== End Of Our Clients Section ========== */
 
     /* ========== Customer Comments Section ========== */
@@ -1549,6 +1654,7 @@ a {
     .slider .slick-arrow {
         top: 95px;
     }
+
     /* ========== End Of Customer Comments Section ========== */
 
     /* ========== Request Demonstration Section ========== */
@@ -1559,10 +1665,12 @@ a {
     .request-demonstration-section .start-form {
         width: 600px;
     }
+
     /* ========== End Of Request Demonstration Section ========== */
 }
 
 @media only screen and (max-width: 880px) {
+
     /* -------------------- Globals -------------------- */
     .individual-profiles-section .browser img,
     .ranking-pages-section .browser img,
@@ -1571,6 +1679,7 @@ a {
     .statistic-section .browser img {
         width: 675px;
     }
+
     /* -------------------- End Of Globals -------------------- */
 
     /* ========== Navigation Bar ========== */
@@ -1581,10 +1690,12 @@ a {
     .top-bar .navbar-right {
         margin-right: 0;
     }
+
     /* ========== End Of Navigation Bar ========== */
 
     /* ========== Advantages Section ========== */
-    .mobile-customer-reviews, .mobile-rating {
+    .mobile-customer-reviews,
+    .mobile-rating {
         width: 350px;
     }
 
@@ -1595,36 +1706,42 @@ a {
     .mobile-customer-reviews {
         left: calc(50% - 288px);
     }
+
     /* ========== End Of Advantages Section ========== */
 
     /* ========== Google Rating Section ========== */
     .google-rating-section .browser img {
         width: 620px;
     }
+
     /* ========== End Of Google Rating Section ========== */
 
     /* ========== Google And Facebook Section ========== */
     .google-facebook-section img.scheme {
         width: 500px;
     }
+
     /* ========== End Of Google And Facebook Section ========== */
 
     /* ========== Tailored Review Section ========== */
     .tailored-review-section img.scheme {
         width: 440px;
     }
+
     /* ========== End Of Tailored Review Section ========== */
 
     /* ========== Client Feedback Section ========== */
     .client-feedback-section .browser img {
         width: 620px;
     }
+
     /* ========== End Of Client Feedback Section ========== */
 
     /* ========== Collect Reviews Section ========== */
     .collect-reviews-section .browser img {
         width: 480px;
     }
+
     /* ========== End Of Collect Reviews Section ========== */
 
     /* ========== Our Clients Section ========== */
@@ -1636,22 +1753,26 @@ a {
     .our-clients-section .widgets + .widgets {
         padding: 15px 0 0 0;
     }
+
     /* ========== End Of Our Clients Section ========== */
 
     /* ========== Leader Package Section ========== */
     .benefits-block {
         width: 562px;
     }
+
     /* ========== End Of Leader Package Section ========== */
 
     /* ========== Request Demonstration Section ========== */
     .request-demonstration-section .start-form {
         width: 500px;
     }
+
     /* ========== End Of Request Demonstration Section ========== */
 }
 
 @media only screen and (max-width: 795px) {
+
     /* -------------------- Globals -------------------- */
     .container {
         width: 510px;
@@ -1660,12 +1781,14 @@ a {
     .text-block {
         padding: 0 !important;
     }
+
     /* -------------------- End Of Globals -------------------- */
 
     /* ========== Advantages Section ========== */
     .advantage {
         width: 100%;
     }
+
     /* ========== End Of Advantages Section ========== */
 
     /* ========== End Of Our Clients Section ========== */
@@ -1685,9 +1808,11 @@ a {
         margin: 0 -50px;
     }
 
-    .widgets a:last-child, .widgets a:last-child img {
+    .widgets a:last-child,
+    .widgets a:last-child img {
         margin: 0;
     }
+
     /* ========== End Of Our Clients Section ========== */
 
     /* ========== Customer Comments Section ========== */
@@ -1714,6 +1839,7 @@ a {
     .customer-comments-section h1 br {
         display: none;
     }
+
     /* ========== End Of Customer Comments Section ========== */
 
     /* ========== Leader Package Section ========== */
@@ -1721,16 +1847,19 @@ a {
         width: 100%;
         padding: 40px 40px;
     }
+
     /* ========== End Of Leader Package Section ========== */
 
     /* ========== Request Demonstration Section ========== */
     .request-demonstration-section .start-form {
         width: 100%;
     }
+
     /* ========== End Of Request Demonstration Section ========== */
 }
 
 @media only screen and (max-width: 768px) {
+
     /* ========== Navigation Bar ========== */
     .top-bar .navbar-header {
         float: left;
@@ -1750,7 +1879,8 @@ a {
         display: none;
     }
 
-    .top-bar .nav > li > a, .top-bar .nav > li {
+    .top-bar .nav > li > a,
+    .top-bar .nav > li {
         display: inline-block;
     }
 
@@ -1769,6 +1899,7 @@ a {
     .top-bar .navbar-right {
         top: 13px;
     }
+
     /* ========== End Of Navigation Bar ========== */
 
     #intro .introtext {
@@ -1790,17 +1921,21 @@ a {
 }
 
 @media only screen and (max-width: 725px) {
+
     /* ========== Navigation Bar ========== */
     .navbar .container {
         width: 100%;
         padding: 0 50px;
     }
+
     /* ========== End Of Navigation Bar ========== */
 }
 
 @media only screen and (max-width: 718px) {
+
     /* ========== Benefits Section ========== */
-    .mobile-customer-reviews, .mobile-rating {
+    .mobile-customer-reviews,
+    .mobile-rating {
         width: 310px;
     }
 
@@ -1811,10 +1946,12 @@ a {
     .mobile-customer-reviews {
         left: calc(50% - 255px);
     }
+
     /* ========== End Of Benefits Section ========== */
 }
 
 @media only screen and (max-width: 690px) {
+
     /* -------------------- Globals -------------------- */
     .individual-profiles-section .browser img,
     .ranking-pages-section .browser img,
@@ -1823,18 +1960,21 @@ a {
     .statistic-section .browser img {
         width: 616px;
     }
+
     /* -------------------- End Of Globals -------------------- */
 
     /* ========== Google Rating Section ========== */
     .google-rating-section .browser img {
         width: 570px;
     }
+
     /* ========== End Of Google Rating Section ========== */
 
     /* ========== Client Feedback Section ========== */
     .client-feedback-section .browser img {
         width: 570px;
     }
+
     /* ========== End Of Client Feedback Section ========== */
 
     /* ========== Customer Comments Section ========== */
@@ -1842,10 +1982,12 @@ a {
         width: 25px;
         height: 57px;
     }
+
     /* ========== End Of Customer Comments Section ========== */
 }
 
 @media only screen and (max-width: 605px) {
+
     /* ========== Navigation Bar ========== */
     .top-bar .navbar-header {
         width: 50%;
@@ -1857,10 +1999,10 @@ a {
 
     .top-bar .logo-rs {
         width: 100% !important;
-    background-size: cover !important;
+        background-size: cover !important;
         background-position: center !important;
     }
-  
+
 
     .top-bar .nav-links {
         text-align: center;
@@ -1875,10 +2017,12 @@ a {
     .top-bar .navbar-right {
         top: 20px;
     }
+
     /* ========== End Of Navigation Bar ========== */
 }
 
 @media only screen and (min-width: 991px) and (max-height: 900px) {
+
     /* ========== Intro Section ========== */
     .join-now .download-brochure {
         bottom: 32px;
@@ -1903,10 +2047,12 @@ a {
     .intro-section .start-form {
         top: calc(50% - 363px);
     }
+
     /* ========== End Of Intro Section ========== */
 }
 
 @media only screen and (min-width: 991px) and (max-height: 780px) {
+
     /* ========== Intro Section ========== */
     .join-now p {
         margin-bottom: 20px;
@@ -1923,14 +2069,17 @@ a {
     .intro-section .start-form {
         top: calc(50% - 352px);
     }
+
     /* ========== End Of Intro Section ========== */
 }
 
 @media only screen and (min-width: 991px) and (max-height: 777px) {
+
     /* ========== Intro Section ========== */
     .intro-section {
         min-height: 777px;
     }
+
     /* ========== End Of Intro Section ========== */
 }
 
@@ -2042,7 +2191,7 @@ input:active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.1vw 1.6vw 0 12.5vw;
+    padding: 1.1vw 8vw 0 13vw;
 }
 
 #intro .content .title {
@@ -2146,7 +2295,8 @@ input:active {
 #intro .join-now .control-form {
     width: 100%;
     border: 2px solid #00af54;
-    border-radius: 2vw;font-weight: 400;
+    border-radius: 2vw;
+    font-weight: 400;
     font-size: 0.84vw;
     padding: 0.73vw 0 0.73vw 4.4vw;
     margin: 0 0 1vw;
@@ -2231,7 +2381,7 @@ input:active {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 2.9vw 2.6vw 2.9vw 13.5vw;
+    padding: 2.9vw 2.6vw;
     background-color: #f6f6f6;
 
 }
@@ -2444,7 +2594,7 @@ input:active {
     }
 
     #intro .download-brochure {
-        width: 30.7vw!important;
+        width: 30.7vw !important;
         padding: 4.2vw 3.4vw;
         font-size: 2vw;
     }
